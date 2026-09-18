@@ -1,0 +1,88 @@
+{
+  "model": "DeepSeek (deepseek-flash)",
+  "receipt": "nota_20",
+  "error": null,
+  "raw_output": "{\"merchant_name\": \"Bebek Boedjang\", \"items\": [{\"name\": \"Ayam Bakar Rica\", \"quantity\": 1, \"unit_price\": 22210, \"total_price\": 22210}, {\"name\": \"Dada\", \"quantity\": 1, \"unit_price\": 0, \"total_price\": 0}, {\"name\": \"Paket B\", \"quantity\": 1, \"unit_price\": 8000, \"total_price\": 8000}, {\"name\": \"Teh Manis\", \"quantity\": 1, \"unit_price\": 6000, \"total_price\": 6000}, {\"name\": \"Dungin\", \"quantity\": 1, \"unit_price\": 0, \"total_price\": 0}, {\"name\": \"Paket Sop Iga\", \"quantity\": 1, \"unit_price\": 36000, \"total_price\": 36000}, {\"name\": \"Koin Parkir Motor\", \"quantity\": 1, \"unit_price\": 2000, \"total_price\": 2000}], \"subtotal\": 74210, \"charges\": [{\"name\": \"Diskon\", \"amount\": 0}, {\"name\": \"Pembulatan\", \"amount\": -10}], \"total\": 74200}",
+  "parsed": {
+    "merchant_name": "Bebek Boedjang",
+    "items": [
+      {
+        "name": "Ayam Bakar Rica",
+        "quantity": 1.0,
+        "unit_price": 22210.0,
+        "total_price": 22210.0
+      },
+      {
+        "name": "Dada",
+        "quantity": 1.0,
+        "unit_price": 0.0,
+        "total_price": 0.0
+      },
+      {
+        "name": "Paket B",
+        "quantity": 1.0,
+        "unit_price": 8000.0,
+        "total_price": 8000.0
+      },
+      {
+        "name": "Teh Manis",
+        "quantity": 1.0,
+        "unit_price": 6000.0,
+        "total_price": 6000.0
+      },
+      {
+        "name": "Dungin",
+        "quantity": 1.0,
+        "unit_price": 0.0,
+        "total_price": 0.0
+      },
+      {
+        "name": "Paket Sop Iga",
+        "quantity": 1.0,
+        "unit_price": 36000.0,
+        "total_price": 36000.0
+      },
+      {
+        "name": "Koin Parkir Motor",
+        "quantity": 1.0,
+        "unit_price": 2000.0,
+        "total_price": 2000.0
+      }
+    ],
+    "subtotal": 74210.0,
+    "charges": [
+      {
+        "name": "Diskon",
+        "amount": 0.0
+      },
+      {
+        "name": "Pembulatan",
+        "amount": -10.0
+      }
+    ],
+    "total": 74200.0
+  },
+  "run_summary": {
+    "total_runs": 1,
+    "successful_runs": 1,
+    "failed_runs": 0,
+    "success_rate": 1.0
+  },
+  "metrics": {
+    "parsed": true,
+    "n_gt_items": 5,
+    "n_pred_items": 7,
+    "item_precision": 0.7142857142857143,
+    "item_recall": 1.0,
+    "item_f1": 0.8333333333333333,
+    "name_cer": 0.02857142857142857,
+    "qty_acc": 1.0,
+    "unit_price_acc": 1.0,
+    "total_price_acc": 1.0,
+    "item_exact_rate": 0.8,
+    "subtotal_ok": true,
+    "charges_recall": 1.0,
+    "total_ok": true,
+    "consistent": true
+  }
+}

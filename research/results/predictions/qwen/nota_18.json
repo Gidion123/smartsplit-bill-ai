@@ -1,0 +1,66 @@
+{
+  "model": "Qwen-VL (Qwen3-VL-2B-Instruct)",
+  "receipt": "nota_18",
+  "error": null,
+  "raw_output": "```json\n{\n  \"merchant_name\": \"KFC\",\n  \"items\": [\n    {\n      \"name\": \"2 Pcs Chic-King\",\n      \"quantity\": 2,\n      \"unit_price\": 16500,\n      \"total_price\": 33000\n    },\n    {\n      \"name\": \"1 PC Sundae\",\n      \"quantity\": 1,\n      \"unit_price\": 20000,\n      \"total_price\": 20000\n    },\n    {\n      \"name\": \"1 Drink\",\n      \"quantity\": 1,\n      \"unit_price\": 5000,\n      \"total_price\": 5000\n    },\n    {\n      \"name\": \"1 Drink\",\n      \"quantity\": 1,\n      \"unit_price\": 5000,\n      \"total_price\": 5000\n    }\n  ],\n  \"subtotal\": 33000,\n  \"charges\": [\n    {\n      \"name\": \"Pajak 10%\",\n      \"amount\": 3300\n    }\n  ],\n  \"total\": 36300\n}\n```",
+  "parsed": {
+    "merchant_name": "KFC",
+    "items": [
+      {
+        "name": "2 Pcs Chic-King",
+        "quantity": 2.0,
+        "unit_price": 16500.0,
+        "total_price": 33000.0
+      },
+      {
+        "name": "1 PC Sundae",
+        "quantity": 1.0,
+        "unit_price": 20000.0,
+        "total_price": 20000.0
+      },
+      {
+        "name": "1 Drink",
+        "quantity": 1.0,
+        "unit_price": 5000.0,
+        "total_price": 5000.0
+      },
+      {
+        "name": "1 Drink",
+        "quantity": 1.0,
+        "unit_price": 5000.0,
+        "total_price": 5000.0
+      }
+    ],
+    "subtotal": 33000.0,
+    "charges": [
+      {
+        "name": "Pajak 10%",
+        "amount": 3300.0
+      }
+    ],
+    "total": 36300.0
+  },
+  "run_summary": {
+    "total_runs": 3,
+    "successful_runs": 3,
+    "failed_runs": 0,
+    "success_rate": 1.0
+  },
+  "metrics": {
+    "parsed": true,
+    "n_gt_items": 2,
+    "n_pred_items": 4,
+    "item_precision": 0.25,
+    "item_recall": 0.5,
+    "item_f1": 0.3333333333333333,
+    "name_cer": 0.26666666666666666,
+    "qty_acc": 0.5,
+    "unit_price_acc": 0.0,
+    "total_price_acc": 0.0,
+    "item_exact_rate": 0.0,
+    "subtotal_ok": false,
+    "charges_recall": 0.0,
+    "total_ok": false,
+    "consistent": false
+  }
+}

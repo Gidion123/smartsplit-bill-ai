@@ -1,0 +1,66 @@
+{
+  "model": "Qwen-VL (Qwen3-VL-2B-Instruct)",
+  "receipt": "nota_15",
+  "error": null,
+  "raw_output": "```json\n{\n  \"merchant_name\": \"AYAM ANCUR\",\n  \"items\": [\n    {\n      \"name\": \"Ayam Ancur Jumbo+ Nasi\",\n      \"quantity\": 1,\n      \"unit_price\": 22000,\n      \"total_price\": 22000\n    },\n    {\n      \"name\": \"Kulit Crispy\",\n      \"quantity\": 1,\n      \"unit_price\": 12000,\n      \"total_price\": 12000\n    },\n    {\n      \"name\": \"Ayam Ancur + Nasi\",\n      \"quantity\": 1,\n      \"unit_price\": 15000,\n      \"total_price\": 15000\n    },\n    {\n      \"name\": \"Es Tawar\",\n      \"quantity\": 1,\n      \"unit_price\": 2000,\n      \"total_price\": 2000\n    }\n  ],\n  \"subtotal\": 51000,\n  \"charges\": [\n    {\n      \"name\": \"Pajak 10%\",\n      \"amount\": 5100\n    }\n  ],\n  \"total\": 56100\n}\n```",
+  "parsed": {
+    "merchant_name": "AYAM ANCUR",
+    "items": [
+      {
+        "name": "Ayam Ancur Jumbo+ Nasi",
+        "quantity": 1.0,
+        "unit_price": 22000.0,
+        "total_price": 22000.0
+      },
+      {
+        "name": "Kulit Crispy",
+        "quantity": 1.0,
+        "unit_price": 12000.0,
+        "total_price": 12000.0
+      },
+      {
+        "name": "Ayam Ancur + Nasi",
+        "quantity": 1.0,
+        "unit_price": 15000.0,
+        "total_price": 15000.0
+      },
+      {
+        "name": "Es Tawar",
+        "quantity": 1.0,
+        "unit_price": 2000.0,
+        "total_price": 2000.0
+      }
+    ],
+    "subtotal": 51000.0,
+    "charges": [
+      {
+        "name": "Pajak 10%",
+        "amount": 5100.0
+      }
+    ],
+    "total": 56100.0
+  },
+  "run_summary": {
+    "total_runs": 3,
+    "successful_runs": 3,
+    "failed_runs": 0,
+    "success_rate": 1.0
+  },
+  "metrics": {
+    "parsed": true,
+    "n_gt_items": 4,
+    "n_pred_items": 4,
+    "item_precision": 1.0,
+    "item_recall": 1.0,
+    "item_f1": 1.0,
+    "name_cer": 0.0,
+    "qty_acc": 1.0,
+    "unit_price_acc": 1.0,
+    "total_price_acc": 1.0,
+    "item_exact_rate": 1.0,
+    "subtotal_ok": true,
+    "charges_recall": 1.0,
+    "total_ok": false,
+    "consistent": true
+  }
+}

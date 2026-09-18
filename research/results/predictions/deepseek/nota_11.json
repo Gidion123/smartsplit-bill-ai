@@ -1,0 +1,96 @@
+{
+  "model": "DeepSeek (deepseek-flash)",
+  "receipt": "nota_11",
+  "error": null,
+  "raw_output": "{\"merchant_name\": \"DO RE MI\", \"items\": [{\"name\": \"NESTLE MINERAL 600\", \"quantity\": 1, \"unit_price\": 5000, \"total_price\": 5000}, {\"name\": \"IMPLORA BLUEBERRY SHEET MASK\", \"quantity\": 1, \"unit_price\": 5607, \"total_price\": 5607}, {\"name\": \"SANYE ESD LOVE (398 + 15%)\", \"quantity\": 1, \"unit_price\": 38500, \"total_price\": 38500}, {\"name\": \"TATA DEO B.OPIUM\", \"quantity\": 1, \"unit_price\": 9500, \"total_price\": 9500}, {\"name\": \"JPT RMT YY 799\", \"quantity\": 1, \"unit_price\": 12000, \"total_price\": 12000}, {\"name\": \"OMG LIP FOND 13C\", \"quantity\": 1, \"unit_price\": 19000, \"total_price\": 19000}, {\"name\": \"KELLY PEARL CREAM\", \"quantity\": 1, \"unit_price\": 6000, \"total_price\": 6000}, {\"name\": \"XI XIU LIP STAIN 02\", \"quantity\": 1, \"unit_price\": 17000, \"total_price\": 17000}, {\"name\": \"CIPTADENT COOL MINT 120G\", \"quantity\": 1, \"unit_price\": 8500, \"total_price\": 8500}], \"subtotal\": 128107, \"charges\": [{\"name\": \"Diskon\", \"amount\": 0}], \"total\": 128107}",
+  "parsed": {
+    "merchant_name": "DO RE MI",
+    "items": [
+      {
+        "name": "NESTLE MINERAL 600",
+        "quantity": 1.0,
+        "unit_price": 5000.0,
+        "total_price": 5000.0
+      },
+      {
+        "name": "IMPLORA BLUEBERRY SHEET MASK",
+        "quantity": 1.0,
+        "unit_price": 5607.0,
+        "total_price": 5607.0
+      },
+      {
+        "name": "SANYE ESD LOVE (398 + 15%)",
+        "quantity": 1.0,
+        "unit_price": 38500.0,
+        "total_price": 38500.0
+      },
+      {
+        "name": "TATA DEO B.OPIUM",
+        "quantity": 1.0,
+        "unit_price": 9500.0,
+        "total_price": 9500.0
+      },
+      {
+        "name": "JPT RMT YY 799",
+        "quantity": 1.0,
+        "unit_price": 12000.0,
+        "total_price": 12000.0
+      },
+      {
+        "name": "OMG LIP FOND 13C",
+        "quantity": 1.0,
+        "unit_price": 19000.0,
+        "total_price": 19000.0
+      },
+      {
+        "name": "KELLY PEARL CREAM",
+        "quantity": 1.0,
+        "unit_price": 6000.0,
+        "total_price": 6000.0
+      },
+      {
+        "name": "XI XIU LIP STAIN 02",
+        "quantity": 1.0,
+        "unit_price": 17000.0,
+        "total_price": 17000.0
+      },
+      {
+        "name": "CIPTADENT COOL MINT 120G",
+        "quantity": 1.0,
+        "unit_price": 8500.0,
+        "total_price": 8500.0
+      }
+    ],
+    "subtotal": 128107.0,
+    "charges": [
+      {
+        "name": "Diskon",
+        "amount": 0.0
+      }
+    ],
+    "total": 128107.0
+  },
+  "run_summary": {
+    "total_runs": 1,
+    "successful_runs": 1,
+    "failed_runs": 0,
+    "success_rate": 1.0
+  },
+  "metrics": {
+    "parsed": true,
+    "n_gt_items": 10,
+    "n_pred_items": 9,
+    "item_precision": 1.0,
+    "item_recall": 0.9,
+    "item_f1": 0.9473684210526316,
+    "name_cer": 0.07190170940170941,
+    "qty_acc": 0.8,
+    "unit_price_acc": 0.8,
+    "total_price_acc": 0.8,
+    "item_exact_rate": 0.6,
+    "subtotal_ok": false,
+    "charges_recall": 0.0,
+    "total_ok": true,
+    "consistent": false
+  }
+}

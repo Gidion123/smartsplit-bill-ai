@@ -1,0 +1,68 @@
+{
+  "model": "DeepSeek (deepseek-flash)",
+  "receipt": "nota_05",
+  "error": null,
+  "raw_output": "{\"merchant_name\": \"BEE COSMETICS\", \"items\": [{\"name\": \"WRH UV SHIELD ACNE CALM SPF50 (BSR) 40ML\", \"quantity\": 1, \"unit_price\": 59000, \"total_price\": 50150}, {\"name\": \"DERMA ANGEL ACNE PATCH SALICYLIC NIGHT 151 12 pcs\", \"quantity\": 1, \"unit_price\": 41000, \"total_price\": 36900}, {\"name\": \"DERMA ANGEL ACNE PATCH SALICYLIC DAY 151 12 pcs\", \"quantity\": 1, \"unit_price\": 39000, \"total_price\": 35100}], \"subtotal\": 122150, \"charges\": [{\"name\": \"DISC\", \"amount\": -8850}, {\"name\": \"DISC\", \"amount\": -4100}, {\"name\": \"DISC\", \"amount\": -3900}], \"total\": 122150}",
+  "parsed": {
+    "merchant_name": "BEE COSMETICS",
+    "items": [
+      {
+        "name": "WRH UV SHIELD ACNE CALM SPF50 (BSR) 40ML",
+        "quantity": 1.0,
+        "unit_price": 59000.0,
+        "total_price": 50150.0
+      },
+      {
+        "name": "DERMA ANGEL ACNE PATCH SALICYLIC NIGHT 151 12 pcs",
+        "quantity": 1.0,
+        "unit_price": 41000.0,
+        "total_price": 36900.0
+      },
+      {
+        "name": "DERMA ANGEL ACNE PATCH SALICYLIC DAY 151 12 pcs",
+        "quantity": 1.0,
+        "unit_price": 39000.0,
+        "total_price": 35100.0
+      }
+    ],
+    "subtotal": 122150.0,
+    "charges": [
+      {
+        "name": "DISC",
+        "amount": -8850.0
+      },
+      {
+        "name": "DISC",
+        "amount": -4100.0
+      },
+      {
+        "name": "DISC",
+        "amount": -3900.0
+      }
+    ],
+    "total": 122150.0
+  },
+  "run_summary": {
+    "total_runs": 1,
+    "successful_runs": 1,
+    "failed_runs": 0,
+    "success_rate": 1.0
+  },
+  "metrics": {
+    "parsed": true,
+    "n_gt_items": 3,
+    "n_pred_items": 3,
+    "item_precision": 1.0,
+    "item_recall": 1.0,
+    "item_f1": 1.0,
+    "name_cer": 0.08514492753623189,
+    "qty_acc": 1.0,
+    "unit_price_acc": 1.0,
+    "total_price_acc": 0.0,
+    "item_exact_rate": 0.0,
+    "subtotal_ok": true,
+    "charges_recall": 1.0,
+    "total_ok": true,
+    "consistent": false
+  }
+}

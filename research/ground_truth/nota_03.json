@@ -1,0 +1,35 @@
+{
+  "merchant_name": "ALFAMART",
+  "items": [
+    {
+      "name": "MR HOT BLD 70G",
+      "quantity": 1,
+      "unit_price": 5400,
+      "total_price": 5400
+    },
+    {
+      "name": "#F/FRIES 2000 P",
+      "quantity": 1,
+      "unit_price": 3000,
+      "total_price": 3000
+    },
+    {
+      "name": "KANTONG PLS M",
+      "quantity": 1,
+      "unit_price": 1,
+      "total_price": 1
+    }
+  ],
+  "subtotal": 8401,
+  "charges": [
+    {
+      "name": "Disc.",
+      "amount": -1500
+    },
+    {
+      "name": "Disc.",
+      "amount": -1
+    }
+  ],
+  "total": 6900
+}

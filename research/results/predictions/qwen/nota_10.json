@@ -1,0 +1,60 @@
+{
+  "model": "Qwen-VL (Qwen3-VL-2B-Instruct)",
+  "receipt": "nota_10",
+  "error": null,
+  "raw_output": "```json\n{\n  \"merchant_name\": \"Mie Ayam Bakso Dawor\",\n  \"items\": [\n    {\n      \"name\": \"1 Porsi x Mie 20.000\",\n      \"quantity\": 1,\n      \"unit_price\": 20000,\n      \"total_price\": 20000\n    },\n    {\n      \"name\": \"1 Porsi x Mie 20.000\",\n      \"quantity\": 1,\n      \"unit_price\": 20000,\n      \"total_price\": 20000\n    },\n    {\n      \"name\": \"3 Gelas x Rp5.000\",\n      \"quantity\": 3,\n      \"unit_price\": 5000,\n      \"total_price\": 15000\n    }\n  ],\n  \"subtotal\": 55000,\n  \"charges\": [\n    {\n      \"name\": \"Pajak 10%\",\n      \"amount\": 5500\n    }\n  ],\n  \"total\": 60500\n}\n```",
+  "parsed": {
+    "merchant_name": "Mie Ayam Bakso Dawor",
+    "items": [
+      {
+        "name": "1 Porsi x Mie 20.000",
+        "quantity": 1.0,
+        "unit_price": 20000.0,
+        "total_price": 20000.0
+      },
+      {
+        "name": "1 Porsi x Mie 20.000",
+        "quantity": 1.0,
+        "unit_price": 20000.0,
+        "total_price": 20000.0
+      },
+      {
+        "name": "3 Gelas x Rp5.000",
+        "quantity": 3.0,
+        "unit_price": 5000.0,
+        "total_price": 15000.0
+      }
+    ],
+    "subtotal": 55000.0,
+    "charges": [
+      {
+        "name": "Pajak 10%",
+        "amount": 5500.0
+      }
+    ],
+    "total": 60500.0
+  },
+  "run_summary": {
+    "total_runs": 3,
+    "successful_runs": 3,
+    "failed_runs": 0,
+    "success_rate": 1.0
+  },
+  "metrics": {
+    "parsed": true,
+    "n_gt_items": 3,
+    "n_pred_items": 3,
+    "item_precision": 0.0,
+    "item_recall": 0.0,
+    "item_f1": 0.0,
+    "name_cer": 1.0,
+    "qty_acc": 0.0,
+    "unit_price_acc": 0.0,
+    "total_price_acc": 0.0,
+    "item_exact_rate": 0.0,
+    "subtotal_ok": true,
+    "charges_recall": 1.0,
+    "total_ok": false,
+    "consistent": true
+  }
+}

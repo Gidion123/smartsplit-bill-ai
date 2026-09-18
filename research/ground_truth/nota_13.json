@@ -1,0 +1,32 @@
+{
+  "merchant_name": "Ayam Ancur Karimata",
+  "items": [
+    {
+      "name": "Ayam Ancur + Nasi",
+      "quantity": 1,
+      "unit_price": 15000,
+      "total_price": 15000
+    },
+    {
+      "name": "Ayam Ancur Jumbo+ Nasi",
+      "quantity": 1,
+      "unit_price": 22000,
+      "total_price": 22000
+    },
+    {
+      "name": "Kulit Crispy",
+      "quantity": 1,
+      "unit_price": 12000,
+      "total_price": 12000
+    },
+    {
+      "name": "Es Tawar",
+      "quantity": 1,
+      "unit_price": 2000,
+      "total_price": 2000
+    }
+  ],
+  "subtotal": 51000,
+  "charges": [],
+  "total": 51000
+}

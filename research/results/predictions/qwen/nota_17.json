@@ -1,0 +1,54 @@
+{
+  "model": "Qwen-VL (Qwen3-VL-2B-Instruct)",
+  "receipt": "nota_17",
+  "error": null,
+  "raw_output": "```json\n{\n  \"merchant_name\": \"SUMO smokes Merdeka\",\n  \"items\": [\n    {\n      \"name\": \"Matcha green tea\",\n      \"quantity\": 1,\n      \"unit_price\": 18100,\n      \"total_price\": 18100\n    },\n    {\n      \"name\": \"Chikin Karil Mentah Roll\",\n      \"quantity\": 1,\n      \"unit_price\": 25454,\n      \"total_price\": 25454\n    }\n  ],\n  \"subtotal\": 43635,\n  \"charges\": [\n    {\n      \"name\": \"Pajak 10%\",\n      \"amount\": 4363.5\n    }\n  ],\n  \"total\": 48000\n}\n```",
+  "parsed": {
+    "merchant_name": "SUMO smokes Merdeka",
+    "items": [
+      {
+        "name": "Matcha green tea",
+        "quantity": 1.0,
+        "unit_price": 18100.0,
+        "total_price": 18100.0
+      },
+      {
+        "name": "Chikin Karil Mentah Roll",
+        "quantity": 1.0,
+        "unit_price": 25454.0,
+        "total_price": 25454.0
+      }
+    ],
+    "subtotal": 43635.0,
+    "charges": [
+      {
+        "name": "Pajak 10%",
+        "amount": 4363.5
+      }
+    ],
+    "total": 48000.0
+  },
+  "run_summary": {
+    "total_runs": 3,
+    "successful_runs": 3,
+    "failed_runs": 0,
+    "success_rate": 1.0
+  },
+  "metrics": {
+    "parsed": true,
+    "n_gt_items": 2,
+    "n_pred_items": 2,
+    "item_precision": 1.0,
+    "item_recall": 1.0,
+    "item_f1": 1.0,
+    "name_cer": 0.12,
+    "qty_acc": 1.0,
+    "unit_price_acc": 0.5,
+    "total_price_acc": 0.5,
+    "item_exact_rate": 0.0,
+    "subtotal_ok": true,
+    "charges_recall": 0.5,
+    "total_ok": true,
+    "consistent": false
+  }
+}

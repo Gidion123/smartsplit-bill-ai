@@ -1,0 +1,91 @@
+{
+  "model": "Qwen-VL (Qwen3-VL-2B-Instruct)",
+  "receipt": "nota_11",
+  "error": null,
+  "raw_output": "```json\n{\n  \"merchant_name\": \"DO RE MI\",\n  \"items\": [\n    {\n      \"name\": \"NESTLE MINERAL 600\",\n      \"quantity\": 1,\n      \"unit_price\": 5000,\n      \"total_price\": 5000\n    },\n    {\n      \"name\": \"IMPLORA BLUEBERRY SHEET MASK\",\n      \"quantity\": 2,\n      \"unit_price\": 3298,\n      \"total_price\": 6596\n    },\n    {\n      \"name\": \"SANIYE ESD LOVE 12 WRNA 03\",\n      \"quantity\": 1,\n      \"unit_price\": 38500,\n      \"total_price\": 38500\n    },\n    {\n      \"name\": \"TATA DEO BOPIUM\",\n      \"quantity\": 1,\n      \"unit_price\": 9500,\n      \"total_price\": 9500\n    },\n    {\n      \"name\": \"JPT RMBUT YY799\",\n      \"quantity\": 1,\n      \"unit_price\": 12000,\n      \"total_price\": 12000\n    },\n    {\n      \"name\": \"OMG LIP FOND 13C\",\n      \"quantity\": 1,\n      \"unit_price\": 19000,\n      \"total_price\": 19000\n    },\n    {\n      \"name\": \"KELLY PEARL CREAM\",\n      \"quantity\": 1,\n      \"unit_price\": 6000,\n      \"total_price\": 6000\n    },\n    {\n      \"name\": \"XI XIU LIP STAIN 02\",\n      \"quantity\": 1,\n      \"unit_price\": 7000,\n      \"total_price\": 7000\n    },\n    {\n      \"name\": \"CIPTADENT COOL MINT 120G\",\n      \"quantity\": 1,\n      \"unit_price\": 8500,\n      \"total_price\": 8500\n    }\n  ],\n  \"subtotal\": 128107,\n  \"charges\": [\n    {\n      \"name\": \"DISKON\",\n      \"amount\": 0\n    }\n  ],\n  \"total\": 128107\n}\n```",
+  "parsed": {
+    "merchant_name": "DO RE MI",
+    "items": [
+      {
+        "name": "NESTLE MINERAL 600",
+        "quantity": 1.0,
+        "unit_price": 5000.0,
+        "total_price": 5000.0
+      },
+      {
+        "name": "IMPLORA BLUEBERRY SHEET MASK",
+        "quantity": 2.0,
+        "unit_price": 3298.0,
+        "total_price": 6596.0
+      },
+      {
+        "name": "SANIYE ESD LOVE 12 WRNA 03",
+        "quantity": 1.0,
+        "unit_price": 38500.0,
+        "total_price": 38500.0
+      },
+      {
+        "name": "TATA DEO BOPIUM",
+        "quantity": 1.0,
+        "unit_price": 9500.0,
+        "total_price": 9500.0
+      },
+      {
+        "name": "JPT RMBUT YY799",
+        "quantity": 1.0,
+        "unit_price": 12000.0,
+        "total_price": 12000.0
+      },
+      {
+        "name": "OMG LIP FOND 13C",
+        "quantity": 1.0,
+        "unit_price": 19000.0,
+        "total_price": 19000.0
+      },
+      {
+        "name": "KELLY PEARL CREAM",
+        "quantity": 1.0,
+        "unit_price": 6000.0,
+        "total_price": 6000.0
+      },
+      {
+        "name": "XI XIU LIP STAIN 02",
+        "quantity": 1.0,
+        "unit_price": 7000.0,
+        "total_price": 7000.0
+      },
+      {
+        "name": "CIPTADENT COOL MINT 120G",
+        "quantity": 1.0,
+        "unit_price": 8500.0,
+        "total_price": 8500.0
+      }
+    ],
+    "subtotal": 128107.0,
+    "charges": [],
+    "total": 128107.0
+  },
+  "run_summary": {
+    "total_runs": 3,
+    "successful_runs": 3,
+    "failed_runs": 0,
+    "success_rate": 1.0
+  },
+  "metrics": {
+    "parsed": true,
+    "n_gt_items": 10,
+    "n_pred_items": 9,
+    "item_precision": 1.0,
+    "item_recall": 0.9,
+    "item_f1": 0.9473684210526316,
+    "name_cer": 0.013888888888888888,
+    "qty_acc": 0.9,
+    "unit_price_acc": 0.8,
+    "total_price_acc": 0.8,
+    "item_exact_rate": 0.8,
+    "subtotal_ok": false,
+    "charges_recall": 0.0,
+    "total_ok": true,
+    "consistent": false
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "model": "DeepSeek (deepseek-flash)",
+  "receipt": "nota_04",
+  "error": null,
+  "raw_output": "{\"merchant_name\": \"Indomaret\", \"items\": [{\"name\": \"INDOMI GORENG SPC 80\", \"quantity\": 2, \"unit_price\": 2300, \"total_price\": 4600}, {\"name\": \"SEDAAP MIE SOTO 75GR\", \"quantity\": 1, \"unit_price\": 2300, \"total_price\": 2300}, {\"name\": \"INDOMI KARI AYAM 72G\", \"quantity\": 2, \"unit_price\": 2300, \"total_price\": 4600}, {\"name\": \"INDOMI AYAM BWG 69G\", \"quantity\": 1, \"unit_price\": 2300, \"total_price\": 2300}, {\"name\": \"SUKSES ISI2 A.KCP129\", \"quantity\": 1, \"unit_price\": 3350, \"total_price\": 3350}, {\"name\": \"INDOMIE GRG RICA 85G\", \"quantity\": 1, \"unit_price\": 2300, \"total_price\": 2300}, {\"name\": \"SEDAAP MIE KARI SP75\", \"quantity\": 1, \"unit_price\": 2300, \"total_price\": 2300}, {\"name\": \"SEDAAP MIE BASO SP77\", \"quantity\": 1, \"unit_price\": 2300, \"total_price\": 2300}, {\"name\": \"INDOMIE GRG S.MTH 85\", \"quantity\": 1, \"unit_price\": 2300, \"total_price\": 2300}, {\"name\": \"SEDAAP MI AY BW TL73\", \"quantity\": 1, \"unit_price\": 2300, \"total_price\": 2300}, {\"name\": \"RINSO DET.MTC FRNT 3\", \"quantity\": 1, \"unit_price\": 93000, \"total_price\": 93000}], \"subtotal\": 121650, \"charges\": [{\"name\": \"VOUCHER UNILEVER INDONESIA PT.\", \"amount\": -14100}, {\"name\": \"PPN\", \"amount\": 11059}], \"total\": 107550}",
+  "parsed": {
+    "merchant_name": "Indomaret",
+    "items": [
+      {
+        "name": "INDOMI GORENG SPC 80",
+        "quantity": 2.0,
+        "unit_price": 2300.0,
+        "total_price": 4600.0
+      },
+      {
+        "name": "SEDAAP MIE SOTO 75GR",
+        "quantity": 1.0,
+        "unit_price": 2300.0,
+        "total_price": 2300.0
+      },
+      {
+        "name": "INDOMI KARI AYAM 72G",
+        "quantity": 2.0,
+        "unit_price": 2300.0,
+        "total_price": 4600.0
+      },
+      {
+        "name": "INDOMI AYAM BWG 69G",
+        "quantity": 1.0,
+        "unit_price": 2300.0,
+        "total_price": 2300.0
+      },
+      {
+        "name": "SUKSES ISI2 A.KCP129",
+        "quantity": 1.0,
+        "unit_price": 3350.0,
+        "total_price": 3350.0
+      },
+      {
+        "name": "INDOMIE GRG RICA 85G",
+        "quantity": 1.0,
+        "unit_price": 2300.0,
+        "total_price": 2300.0
+      },
+      {
+        "name": "SEDAAP MIE KARI SP75",
+        "quantity": 1.0,
+        "unit_price": 2300.0,
+        "total_price": 2300.0
+      },
+      {
+        "name": "SEDAAP MIE BASO SP77",
+        "quantity": 1.0,
+        "unit_price": 2300.0,
+        "total_price": 2300.0
+      },
+      {
+        "name": "INDOMIE GRG S.MTH 85",
+        "quantity": 1.0,
+        "unit_price": 2300.0,
+        "total_price": 2300.0
+      },
+      {
+        "name": "SEDAAP MI AY BW TL73",
+        "quantity": 1.0,
+        "unit_price": 2300.0,
+        "total_price": 2300.0
+      },
+      {
+        "name": "RINSO DET.MTC FRNT 3",
+        "quantity": 1.0,
+        "unit_price": 93000.0,
+        "total_price": 93000.0
+      }
+    ],
+    "subtotal": 121650.0,
+    "charges": [
+      {
+        "name": "VOUCHER UNILEVER INDONESIA PT.",
+        "amount": -14100.0
+      },
+      {
+        "name": "PPN",
+        "amount": 11059.0
+      }
+    ],
+    "total": 107550.0
+  },
+  "run_summary": {
+    "total_runs": 1,
+    "successful_runs": 1,
+    "failed_runs": 0,
+    "success_rate": 1.0
+  },
+  "metrics": {
+    "parsed": true,
+    "n_gt_items": 11,
+    "n_pred_items": 11,
+    "item_precision": 1.0,
+    "item_recall": 1.0,
+    "item_f1": 1.0,
+    "name_cer": 0.01363636363636364,
+    "qty_acc": 1.0,
+    "unit_price_acc": 1.0,
+    "total_price_acc": 1.0,
+    "item_exact_rate": 1.0,
+    "subtotal_ok": true,
+    "charges_recall": 1.0,
+    "total_ok": true,
+    "consistent": false
+  }
+}

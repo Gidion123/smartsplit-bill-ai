@@ -1,0 +1,60 @@
+{
+  "model": "Qwen-VL (Qwen3-VL-2B-Instruct)",
+  "receipt": "nota_19",
+  "error": null,
+  "raw_output": "```json\n{\n  \"merchant_name\": \"Hiro Donuts & Coffee Alianyang\",\n  \"items\": [\n    {\n      \"name\": \"Pistachio\",\n      \"quantity\": 1,\n      \"unit_price\": 12727,\n      \"total_price\": 12727\n    },\n    {\n      \"name\": \"Kiwi Breeze\",\n      \"quantity\": 1,\n      \"unit_price\": 12727,\n      \"total_price\": 12727\n    },\n    {\n      \"name\": \"Air Mineral\",\n      \"quantity\": 1,\n      \"unit_price\": 6181,\n      \"total_price\": 6181\n    }\n  ],\n  \"subtotal\": 33635,\n  \"charges\": [\n    {\n      \"name\": \"PB1\",\n      \"amount\": 3364\n    }\n  ],\n  \"total\": 36999\n}\n```",
+  "parsed": {
+    "merchant_name": "Hiro Donuts & Coffee Alianyang",
+    "items": [
+      {
+        "name": "Pistachio",
+        "quantity": 1.0,
+        "unit_price": 12727.0,
+        "total_price": 12727.0
+      },
+      {
+        "name": "Kiwi Breeze",
+        "quantity": 1.0,
+        "unit_price": 12727.0,
+        "total_price": 12727.0
+      },
+      {
+        "name": "Air Mineral",
+        "quantity": 1.0,
+        "unit_price": 6181.0,
+        "total_price": 6181.0
+      }
+    ],
+    "subtotal": 33635.0,
+    "charges": [
+      {
+        "name": "PB1",
+        "amount": 3364.0
+      }
+    ],
+    "total": 36999.0
+  },
+  "run_summary": {
+    "total_runs": 3,
+    "successful_runs": 3,
+    "failed_runs": 0,
+    "success_rate": 1.0
+  },
+  "metrics": {
+    "parsed": true,
+    "n_gt_items": 3,
+    "n_pred_items": 3,
+    "item_precision": 1.0,
+    "item_recall": 1.0,
+    "item_f1": 1.0,
+    "name_cer": 0.0,
+    "qty_acc": 1.0,
+    "unit_price_acc": 0.6666666666666666,
+    "total_price_acc": 0.6666666666666666,
+    "item_exact_rate": 0.6666666666666666,
+    "subtotal_ok": true,
+    "charges_recall": 0.5,
+    "total_ok": true,
+    "consistent": false
+  }
+}

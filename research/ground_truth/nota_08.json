@@ -1,0 +1,14 @@
+{
+  "merchant_name": "Hotways Chicken Pontianak",
+  "items": [
+    {
+      "name": "HappyDeals C",
+      "quantity": 1,
+      "unit_price": 29000,
+      "total_price": 29000
+    }
+  ],
+  "subtotal": null,
+  "charges": [],
+  "total": 29000
+}

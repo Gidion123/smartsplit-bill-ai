@@ -1,0 +1,70 @@
+{
+  "model": "Donut (CORD-v2)",
+  "receipt": "nota_07",
+  "error": null,
+  "raw_output": "<s_menu><s_nm> GALA Pontanak OHISOME</s_nm><s_num> GAIA Bumi Raya Ctty SECOND FLOR Jl. Arteri</s_nm><s_num> Suapido.Sungai Raya. Kec. Sugai Raya,</s_nm><s_num> KabhipunanKibu Raya, Kalimantan Barat 78121</s_num><s_price> Ravo,</s_price><sep/><s_nm> Salinan pelanggang</s_nm><s_num> NQ.084</s_num><s_price> R051300084</s_price><sep/><s_nm> Wakucheckout</s_nm><s_num> 2025/02/15</s_nm><s_num> KOSIT</s_nm><s_num> NQVIA</s_num><s_price> Rp.2000</s_price><sep/><s_nm> 80-I</s_num>ssie)paper</s_nm><s_num> shoppingbeg small</s_nm><s_num> Np. Dadurch Serum</s_nm><s_cnt> xt Pd.45,900</s_price><sep/><s_nm> Llp.Tinte Dear Vanja 3.5ml</s_nm><s_num> 3. Motosotraho White</s_nm><s_num> xt Rp.99,000</s_num><s_price> Rp.99,000</s_price><sep/><s_nm> Victory3D Emboldery</s_nm><s_num> HardtopBaseball Cap</s_nm><s_num> Basebili</s_num><s_unitprice> Rp 146.900</s_unitprice><s_cnt> 3</s_cnt><s_discountprice> Rp 146.900</s_discountprice><s_price> Rp 146.900</s_price></s_menu><s_sub_total><s_subtotal_price> 2025/02/15</s_nm><s_num> Rp 146.900</s_subtotal_price><s_tax_price> Rp 146.900</s_tax_price><s_etc> Rp 125/02/15 17:15:41</s_etc></s_sub_total><s_total><s_total_price> 27:15:42</s_total_price><s_total_etc> OHISOME DAY</s_total_etc><s_changeprice> -<s_synthdog><s_nm> For</s_changeprice><s_creditcardprice> 25/02/15</s_creditcardprice></s_total>",
+  "parsed": {
+    "merchant_name": null,
+    "items": [
+      {
+        "name": "Salinan pelanggang",
+        "quantity": 1.0,
+        "unit_price": null,
+        "total_price": 51300084.0
+      },
+      {
+        "name": "Wakucheckout",
+        "quantity": 1.0,
+        "unit_price": null,
+        "total_price": 0.2
+      },
+      {
+        "name": "80-I</s_num>ssie)paper",
+        "quantity": 1.0,
+        "unit_price": null,
+        "total_price": 99.0
+      },
+      {
+        "name": "Victory3D Emboldery",
+        "quantity": 3.0,
+        "unit_price": 146900.0,
+        "total_price": 146900.0
+      }
+    ],
+    "subtotal": null,
+    "charges": [
+      {
+        "name": "Pajak",
+        "amount": 146900.0
+      },
+      {
+        "name": "Lain-lain",
+        "amount": 1250215171541.0
+      }
+    ],
+    "total": 271542.0
+  },
+  "run_summary": {
+    "total_runs": 3,
+    "successful_runs": 3,
+    "failed_runs": 0,
+    "success_rate": 1.0
+  },
+  "metrics": {
+    "parsed": true,
+    "n_gt_items": 3,
+    "n_pred_items": 4,
+    "item_precision": 0.0,
+    "item_recall": 0.0,
+    "item_f1": 0.0,
+    "name_cer": 1.0,
+    "qty_acc": 0.0,
+    "unit_price_acc": 0.0,
+    "total_price_acc": 0.0,
+    "item_exact_rate": 0.0,
+    "subtotal_ok": false,
+    "charges_recall": 0.0,
+    "total_ok": false,
+    "consistent": false
+  }
+}

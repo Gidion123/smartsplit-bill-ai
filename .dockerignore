@@ -1,0 +1,9 @@
+.venv
+venv
+.env
+.git
+__pycache__
+.pytest_cache
+.ipynb_checkpoints
+notebooks
+research/results

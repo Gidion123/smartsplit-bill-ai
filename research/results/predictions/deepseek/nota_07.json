@@ -1,0 +1,60 @@
+{
+  "model": "DeepSeek (deepseek-flash)",
+  "receipt": "nota_07",
+  "error": null,
+  "raw_output": "{\"merchant_name\": \"OH! SOME\", \"items\": [{\"name\": \"BO-1 (Indonesia) paper shoppingbag small\", \"quantity\": 1, \"unit_price\": 2000, \"total_price\": 2000}, {\"name\": \"Dear Me Beauty-Serum Lip Tint - Dear Vanilla 3.5ml\", \"quantity\": 1, \"unit_price\": 45900, \"total_price\": 45900}, {\"name\": \"Mootaata White Victory3D Embroidery HardtopBaseball Cap\", \"quantity\": 1, \"unit_price\": 99000, \"total_price\": 99000}], \"subtotal\": 146900, \"charges\": [{\"name\": \"Diskon produk ID-11% (11.0%)\", \"amount\": -14558}], \"total\": 146900}",
+  "parsed": {
+    "merchant_name": "OH! SOME",
+    "items": [
+      {
+        "name": "BO-1 (Indonesia) paper shoppingbag small",
+        "quantity": 1.0,
+        "unit_price": 2000.0,
+        "total_price": 2000.0
+      },
+      {
+        "name": "Dear Me Beauty-Serum Lip Tint - Dear Vanilla 3.5ml",
+        "quantity": 1.0,
+        "unit_price": 45900.0,
+        "total_price": 45900.0
+      },
+      {
+        "name": "Mootaata White Victory3D Embroidery HardtopBaseball Cap",
+        "quantity": 1.0,
+        "unit_price": 99000.0,
+        "total_price": 99000.0
+      }
+    ],
+    "subtotal": 146900.0,
+    "charges": [
+      {
+        "name": "Diskon produk ID-11% (11.0%)",
+        "amount": -14558.0
+      }
+    ],
+    "total": 146900.0
+  },
+  "run_summary": {
+    "total_runs": 1,
+    "successful_runs": 1,
+    "failed_runs": 0,
+    "success_rate": 1.0
+  },
+  "metrics": {
+    "parsed": true,
+    "n_gt_items": 3,
+    "n_pred_items": 3,
+    "item_precision": 1.0,
+    "item_recall": 1.0,
+    "item_f1": 1.0,
+    "name_cer": 0.03788456648868548,
+    "qty_acc": 1.0,
+    "unit_price_acc": 1.0,
+    "total_price_acc": 1.0,
+    "item_exact_rate": 1.0,
+    "subtotal_ok": true,
+    "charges_recall": 1.0,
+    "total_ok": true,
+    "consistent": false
+  }
+}

@@ -1,0 +1,22 @@
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# rahasia
+.env
+
+# editor & OS
+.DS_Store
+.vscode/
+.idea/
+
+# cache model huggingface kalau diarahkan ke dalam project
+.cache/
+
+
+#Private Document
+docs/panduan-presentasi-video.md

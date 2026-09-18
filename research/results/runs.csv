@@ -1,0 +1,171 @@
+model,receipt,run,seconds,success,error
+DeepSeek (deepseek-flash),nota_01,1,1.649721750000026,True,
+DeepSeek (deepseek-flash),nota_02,1,1.4652799170003163,True,
+DeepSeek (deepseek-flash),nota_03,1,1.6143171660000917,True,
+DeepSeek (deepseek-flash),nota_04,1,2.371525666999787,True,
+DeepSeek (deepseek-flash),nota_05,1,1.7158186670003488,True,
+DeepSeek (deepseek-flash),nota_06,1,4.201912042000004,True,
+DeepSeek (deepseek-flash),nota_07,1,1.764322916999845,True,
+DeepSeek (deepseek-flash),nota_08,1,1.3618982500001948,True,
+DeepSeek (deepseek-flash),nota_09,1,1.4838457910000216,True,
+DeepSeek (deepseek-flash),nota_10,1,1.5978618749995803,True,
+DeepSeek (deepseek-flash),nota_11,1,2.0447661250000237,True,
+DeepSeek (deepseek-flash),nota_12,1,1.5370901249998496,True,
+DeepSeek (deepseek-flash),nota_13,1,1.4206654159997925,True,
+DeepSeek (deepseek-flash),nota_14,1,1.351756916999875,True,
+DeepSeek (deepseek-flash),nota_15,1,1.303556583000045,True,
+DeepSeek (deepseek-flash),nota_16,1,0.8919309580001027,True,
+DeepSeek (deepseek-flash),nota_17,1,1.2759932499998285,True,
+DeepSeek (deepseek-flash),nota_18,1,1.4800638749998143,True,
+DeepSeek (deepseek-flash),nota_19,1,1.3552867080002216,True,
+DeepSeek (deepseek-flash),nota_20,1,1.5133952090000093,True,
+Donut (CORD-v2),nota_01,1,2.5385583340002995,True,
+Donut (CORD-v2),nota_01,2,1.3797289580002143,True,
+Donut (CORD-v2),nota_01,3,1.3691256669999348,True,
+Donut (CORD-v2),nota_02,1,2.7776237910002237,True,
+Donut (CORD-v2),nota_02,2,2.058734917000038,True,
+Donut (CORD-v2),nota_02,3,2.039326415999767,True,
+Donut (CORD-v2),nota_03,1,1.4000431250001384,True,
+Donut (CORD-v2),nota_03,2,1.37884350000013,True,
+Donut (CORD-v2),nota_03,3,1.3534576669999296,True,
+Donut (CORD-v2),nota_04,1,3.8582576660000996,True,
+Donut (CORD-v2),nota_04,2,2.9778064160000213,True,
+Donut (CORD-v2),nota_04,3,2.953137040999991,True,
+Donut (CORD-v2),nota_05,1,1.728112499999952,True,
+Donut (CORD-v2),nota_05,2,1.6997376250001253,True,
+Donut (CORD-v2),nota_05,3,1.7041015419999894,True,
+Donut (CORD-v2),nota_06,1,3.3777016250000997,True,
+Donut (CORD-v2),nota_06,2,3.16875354099966,True,
+Donut (CORD-v2),nota_06,3,3.179913041999953,True,
+Donut (CORD-v2),nota_07,1,2.2483329169999706,True,
+Donut (CORD-v2),nota_07,2,2.249725416000274,True,
+Donut (CORD-v2),nota_07,3,2.2466571250001834,True,
+Donut (CORD-v2),nota_08,1,1.5717243750000307,True,
+Donut (CORD-v2),nota_08,2,1.6104806250000365,True,
+Donut (CORD-v2),nota_08,3,1.6200426670002344,True,
+Donut (CORD-v2),nota_09,1,0.9973789169998781,True,
+Donut (CORD-v2),nota_09,2,0.9749483340001461,True,
+Donut (CORD-v2),nota_09,3,0.9797360409997964,True,
+Donut (CORD-v2),nota_10,1,1.249080375000176,True,
+Donut (CORD-v2),nota_10,2,1.2660775829999693,True,
+Donut (CORD-v2),nota_10,3,1.2494721250000111,True,
+Donut (CORD-v2),nota_11,1,8.863811458000328,True,
+Donut (CORD-v2),nota_11,2,5.603605834000064,True,
+Donut (CORD-v2),nota_11,3,5.599667250000039,True,
+Donut (CORD-v2),nota_12,1,1.4577268749999348,True,
+Donut (CORD-v2),nota_12,2,1.4039353329999358,True,
+Donut (CORD-v2),nota_12,3,1.4125259580000602,True,
+Donut (CORD-v2),nota_13,1,1.9645411249998688,True,
+Donut (CORD-v2),nota_13,2,1.932509416999892,True,
+Donut (CORD-v2),nota_13,3,1.9329845000002024,True,
+Donut (CORD-v2),nota_14,1,0.23763791700002912,True,
+Donut (CORD-v2),nota_14,2,0.21669462499994552,True,
+Donut (CORD-v2),nota_14,3,0.21153416700008165,True,
+Donut (CORD-v2),nota_15,1,1.9008175000003575,True,
+Donut (CORD-v2),nota_15,2,1.9654587499999252,True,
+Donut (CORD-v2),nota_15,3,1.9243288329998904,True,
+Donut (CORD-v2),nota_16,1,1.3525620000000345,True,
+Donut (CORD-v2),nota_16,2,1.3483417080001345,True,
+Donut (CORD-v2),nota_16,3,1.3831786249998004,True,
+Donut (CORD-v2),nota_17,1,1.031430083000032,True,
+Donut (CORD-v2),nota_17,2,1.031164749999789,True,
+Donut (CORD-v2),nota_17,3,1.028682750000371,True,
+Donut (CORD-v2),nota_18,1,5.576921625000068,True,
+Donut (CORD-v2),nota_18,2,5.591416833000039,True,
+Donut (CORD-v2),nota_18,3,5.5542188750000605,True,
+Donut (CORD-v2),nota_19,1,1.316454082999826,True,
+Donut (CORD-v2),nota_19,2,1.3011719159999302,True,
+Donut (CORD-v2),nota_19,3,1.3008367080001335,True,
+Donut (CORD-v2),nota_20,1,1.750035042000036,True,
+Donut (CORD-v2),nota_20,2,1.7563753339995856,True,
+Donut (CORD-v2),nota_20,3,1.7680680000003122,True,
+Qwen-VL (Qwen3-VL-2B-Instruct),nota_01,1,8.314502790999995,True,
+Qwen-VL (Qwen3-VL-2B-Instruct),nota_01,2,5.153555459000017,True,
+Qwen-VL (Qwen3-VL-2B-Instruct),nota_01,3,5.84550312500005,True,
+Qwen-VL (Qwen3-VL-2B-Instruct),nota_02,1,7.735891000000265,True,
+Qwen-VL (Qwen3-VL-2B-Instruct),nota_02,2,7.184857707999981,True,
+Qwen-VL (Qwen3-VL-2B-Instruct),nota_02,3,7.31525183299982,True,
+Qwen-VL (Qwen3-VL-2B-Instruct),nota_03,1,9.142327540999759,True,
+Qwen-VL (Qwen3-VL-2B-Instruct),nota_03,2,8.46986087500045,True,
+Qwen-VL (Qwen3-VL-2B-Instruct),nota_03,3,8.714204333999987,True,
+Qwen-VL (Qwen3-VL-2B-Instruct),nota_04,1,28.03388425000003,True,
+Qwen-VL (Qwen3-VL-2B-Instruct),nota_04,2,22.504383958999824,True,
+Qwen-VL (Qwen3-VL-2B-Instruct),nota_04,3,22.338473499999964,True,
+Qwen-VL (Qwen3-VL-2B-Instruct),nota_05,1,9.625793457999862,True,
+Qwen-VL (Qwen3-VL-2B-Instruct),nota_05,2,9.484105291000105,True,
+Qwen-VL (Qwen3-VL-2B-Instruct),nota_05,3,8.948123541999848,True,
+Qwen-VL (Qwen3-VL-2B-Instruct),nota_06,1,23.728637290999814,True,
+Qwen-VL (Qwen3-VL-2B-Instruct),nota_06,2,34.047206792,True,
+Qwen-VL (Qwen3-VL-2B-Instruct),nota_06,3,,False,"Output Qwen bukan JSON yang valid.
+Parser error: Expecting ',' delimiter: line 117 column 6 (char 2415)
+Generated tokens: 1024
+MAX_NEW_TOKENS: 1024
+Hit max_new_tokens: True
+
+Awal output:
+'```json\n{\n  ""merchant_name"": ""BASIN"",\n  ""items"": [\n    {\n      ""name"": ""NIVEA RO MNI 700M EXT"",\n      ""quantity"": 1,\n      ""unit_price"": 85000,\n      ""total_price"": 85000\n    },\n    {\n      ""name"": ""MISTER DTT 106G ORIG"",\n      ""quantity"": 1,\n      ""unit_price"": 70000,\n      ""total_price"": 70000\n   '
+
+Akhir output:
+' GNG BAG"",\n      ""quantity"": 1,\n      ""unit_price"": 85000,\n      ""total_price"": 85000\n    },\n    {\n      ""name"": ""STELLA FZ 2000"",\n      ""quantity"": 1,\n      ""unit_price"": 85000,\n      ""total_price"": 85000\n    },\n    {\n      ""name"": ""SOSOFT LG DTS 700M"",\n      ""quantity"": 1,\n      ""unit_price"": 85000,\n      ""total_price"": 85000\n    },\n    {\n      ""name"": ""NIVEA RO MNI 700M EXT"",\n      ""quantity"": 1,\n      ""unit_price"": 85000,\n      ""total_price"": 85000\n    },\n    {\n      ""name"": ""MISTER DTT 106G'"
+Qwen-VL (Qwen3-VL-2B-Instruct),nota_07,1,,False,"Output Qwen bukan JSON yang valid.
+Parser error: Expecting ',' delimiter: line 29 column 21 (char 623)
+Generated tokens: 337
+MAX_NEW_TOKENS: 1024
+Hit max_new_tokens: False
+
+Awal output:
+'```json\n{\n  ""merchant_name"": ""OH! SOME"",\n  ""items"": [\n    {\n      ""name"": ""BO!-1 (Indonesia) paper shoppingbag small"",\n      ""quantity"": 1,\n      ""unit_price"": 25000,\n      ""total_price"": 25000\n    },\n    {\n      ""name"": ""Dear Me Beauty-Serum"",\n      ""quantity"": 1,\n      ""unit_price"": 45900,\n      ""'
+
+Akhir output:
+'  ""total_price"": 45900\n    },\n    {\n      ""name"": ""LipTint - Dear Vania 3.5ml"",\n      ""quantity"": 1,\n      ""unit_price"": 99000,\n      ""total_price"": 99000\n    },\n    {\n      ""name"": ""Victory3D Embroidery HardtopBaseball Cap"",\n      ""quantity"": 1,\n      ""unit_price"": 146900,\n      ""total_price"": 146900\n    }\n  ],\n  ""subtotal"": 25000 + 45900 + 99000 + 146900,\n  ""charges"": [\n    {\n      ""name"": ""Diskon produk"",\n      ""amount"": 14558\n    }\n  ],\n  ""total"": 25000 + 45900 + 99000 + 146900 - 14558\n}\n```'"
+Qwen-VL (Qwen3-VL-2B-Instruct),nota_07,2,9.249369458000274,True,
+Qwen-VL (Qwen3-VL-2B-Instruct),nota_07,3,9.246491917000185,True,
+Qwen-VL (Qwen3-VL-2B-Instruct),nota_08,1,10.156724458000099,True,
+Qwen-VL (Qwen3-VL-2B-Instruct),nota_08,2,10.012930083000356,True,
+Qwen-VL (Qwen3-VL-2B-Instruct),nota_08,3,11.385077625000122,True,
+Qwen-VL (Qwen3-VL-2B-Instruct),nota_09,1,5.610969584000031,True,
+Qwen-VL (Qwen3-VL-2B-Instruct),nota_09,2,6.7184987089999595,True,
+Qwen-VL (Qwen3-VL-2B-Instruct),nota_09,3,6.709623458000351,True,
+Qwen-VL (Qwen3-VL-2B-Instruct),nota_10,1,9.294484417000149,True,
+Qwen-VL (Qwen3-VL-2B-Instruct),nota_10,2,9.189874916999997,True,
+Qwen-VL (Qwen3-VL-2B-Instruct),nota_10,3,9.293659166999987,True,
+Qwen-VL (Qwen3-VL-2B-Instruct),nota_11,1,18.92085762500028,True,
+Qwen-VL (Qwen3-VL-2B-Instruct),nota_11,2,19.108472790999713,True,
+Qwen-VL (Qwen3-VL-2B-Instruct),nota_11,3,19.10999612500018,True,
+Qwen-VL (Qwen3-VL-2B-Instruct),nota_12,1,7.439453249999588,True,
+Qwen-VL (Qwen3-VL-2B-Instruct),nota_12,2,8.854430625000077,True,
+Qwen-VL (Qwen3-VL-2B-Instruct),nota_12,3,8.891952291000052,True,
+Qwen-VL (Qwen3-VL-2B-Instruct),nota_13,1,10.638561792000019,True,
+Qwen-VL (Qwen3-VL-2B-Instruct),nota_13,2,11.075619791999998,True,
+Qwen-VL (Qwen3-VL-2B-Instruct),nota_13,3,10.774817417000122,True,
+Qwen-VL (Qwen3-VL-2B-Instruct),nota_14,1,6.964644457999839,True,
+Qwen-VL (Qwen3-VL-2B-Instruct),nota_14,2,7.012705125000139,True,
+Qwen-VL (Qwen3-VL-2B-Instruct),nota_14,3,,False,"Output Qwen bukan JSON yang valid.
+Parser error: Expecting ',' delimiter: line 117 column 6 (char 2360)
+Generated tokens: 1024
+MAX_NEW_TOKENS: 1024
+Hit max_new_tokens: True
+
+Awal output:
+'```json\n{\n  ""merchant_name"": ""Lokale"",\n  ""items"": [\n    {\n      ""name"": ""kopi (1) (1) (1)"",\n      ""quantity"": 1,\n      ""unit_price"": 16000,\n      ""total_price"": 16000\n    },\n    {\n      ""name"": ""kopi (1) (1) (1)"",\n      ""quantity"": 1,\n      ""unit_price"": 16000,\n      ""total_price"": 16000\n    },\n    '
+
+Akhir output:
+'rice"": 16000,\n      ""total_price"": 16000\n    },\n    {\n      ""name"": ""kopi (1) (1) (1)"",\n      ""quantity"": 1,\n      ""unit_price"": 16000,\n      ""total_price"": 16000\n    },\n    {\n      ""name"": ""kopi (1) (1) (1)"",\n      ""quantity"": 1,\n      ""unit_price"": 16000,\n      ""total_price"": 16000\n    },\n    {\n      ""name"": ""kopi (1) (1) (1)"",\n      ""quantity"": 1,\n      ""unit_price"": 16000,\n      ""total_price"": 16000\n    },\n    {\n      ""name"": ""kopi (1) (1) (1)"",\n      ""quantity"": 1,\n      ""unit_price"": 16000'"
+Qwen-VL (Qwen3-VL-2B-Instruct),nota_15,1,10.648357291999673,True,
+Qwen-VL (Qwen3-VL-2B-Instruct),nota_15,2,10.75356766699997,True,
+Qwen-VL (Qwen3-VL-2B-Instruct),nota_15,3,10.595511499999702,True,
+Qwen-VL (Qwen3-VL-2B-Instruct),nota_16,1,5.657620667000174,True,
+Qwen-VL (Qwen3-VL-2B-Instruct),nota_16,2,5.610633959000097,True,
+Qwen-VL (Qwen3-VL-2B-Instruct),nota_16,3,5.532250124999791,True,
+Qwen-VL (Qwen3-VL-2B-Instruct),nota_17,1,7.396978250000302,True,
+Qwen-VL (Qwen3-VL-2B-Instruct),nota_17,2,7.457387166999979,True,
+Qwen-VL (Qwen3-VL-2B-Instruct),nota_17,3,7.466120624999803,True,
+Qwen-VL (Qwen3-VL-2B-Instruct),nota_18,1,10.026287207999758,True,
+Qwen-VL (Qwen3-VL-2B-Instruct),nota_18,2,8.663572082999963,True,
+Qwen-VL (Qwen3-VL-2B-Instruct),nota_18,3,5.76448316699998,True,
+Qwen-VL (Qwen3-VL-2B-Instruct),nota_19,1,8.608128584000042,True,
+Qwen-VL (Qwen3-VL-2B-Instruct),nota_19,2,8.571848666999813,True,
+Qwen-VL (Qwen3-VL-2B-Instruct),nota_19,3,8.596544541000185,True,
+Qwen-VL (Qwen3-VL-2B-Instruct),nota_20,1,12.505524917000002,True,
+Qwen-VL (Qwen3-VL-2B-Instruct),nota_20,2,11.801620624999941,True,
+Qwen-VL (Qwen3-VL-2B-Instruct),nota_20,3,11.876049250000051,True,

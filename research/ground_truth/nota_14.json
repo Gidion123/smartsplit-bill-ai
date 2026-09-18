@@ -1,0 +1,19 @@
+{
+  "merchant_name": "lokale",
+  "items": [
+    {
+      "name": "Kopi Matcha",
+      "quantity": 1,
+      "unit_price": 16000,
+      "total_price": 16000
+    }
+  ],
+  "subtotal": 16000,
+  "charges": [
+    {
+      "name": "PB (10%)",
+      "amount": 1600
+    }
+  ],
+  "total": 17600
+}

@@ -1,0 +1,26 @@
+{
+  "merchant_name": "KUONA COFFEE P.AIM",
+  "items": [
+    {
+      "name": "MILO LATTE",
+      "quantity": 1,
+      "unit_price": 18000,
+      "total_price": 18000
+    },
+    {
+      "name": "+LARGE",
+      "quantity": 1,
+      "unit_price": 2000,
+      "total_price": 2000
+    },
+    {
+      "name": "AIR MINERAL",
+      "quantity": 1,
+      "unit_price": 8000,
+      "total_price": 8000
+    }
+  ],
+  "subtotal": 28000,
+  "charges": [],
+  "total": 28000
+}

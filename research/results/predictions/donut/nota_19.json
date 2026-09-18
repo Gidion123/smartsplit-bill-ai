@@ -1,0 +1,60 @@
+{
+  "model": "Donut (CORD-v2)",
+  "receipt": "nota_19",
+  "error": null,
+  "raw_output": "<s_menu><s_nm> Hiro Donuts & Coffee Alianyang</s_nm><s_unitprice> Alianyang Kota</s_nm><s_unitprice> SHOCA015765046206</s_unitprice><s_cnt> Jl. Medi<s_price> Alianyang</s_price><sep/><s_nm> Penjualan</s_nm><s_unitprice> 12·09-20205</s_unitprice><s_cnt> 11:4</s_cnt><s_price> 11:14</s_price><sep/><s_nm> Jam Masuk Quick Service</s_nm><s_unitprice> 12·09-20205</s_unitprice><s_cnt> 12·09</s_cnt><s_price> 11:14</s_price><sep/><s_nm> Mode DINE IN</s_nm></s_sub><sep/><s_nm> Kasir KASIR Al IANYANG</s_nm><s_unitprice> @12.727</s_unitprice><s_cnt> 1x</s_cnt><s_discountprice> 12.727</s_discountprice><s_price> 8,181</s_price></s_menu><s_sub_total><s_subtotal_price> 36.999</s_subtotal_price><s_tax_price> 3,364</s_tax_price></s_sub_total><s_total><s_total_price> 37.000</s_total_price><s_creditcardprice> 37.000</s_creditcardprice><s_menuqty_cnt> 1</s_menuqty_cnt></s_total>",
+  "parsed": {
+    "merchant_name": null,
+    "items": [
+      {
+        "name": "Hiro Donuts & Coffee Alianyang",
+        "quantity": 1.0,
+        "unit_price": null,
+        "total_price": 1114.0
+      },
+      {
+        "name": "Jam Masuk Quick Service",
+        "quantity": 12.0,
+        "unit_price": -120920205.0,
+        "total_price": 1114.0
+      },
+      {
+        "name": "Kasir KASIR Al IANYANG",
+        "quantity": 1.0,
+        "unit_price": 12727.0,
+        "total_price": 8181.0
+      }
+    ],
+    "subtotal": 36999.0,
+    "charges": [
+      {
+        "name": "Pajak",
+        "amount": 3364.0
+      }
+    ],
+    "total": 37000.0
+  },
+  "run_summary": {
+    "total_runs": 3,
+    "successful_runs": 3,
+    "failed_runs": 0,
+    "success_rate": 1.0
+  },
+  "metrics": {
+    "parsed": true,
+    "n_gt_items": 3,
+    "n_pred_items": 3,
+    "item_precision": 0.3333333333333333,
+    "item_recall": 0.3333333333333333,
+    "item_f1": 0.3333333333333333,
+    "name_cer": 1.3636363636363635,
+    "qty_acc": 0.3333333333333333,
+    "unit_price_acc": 0.0,
+    "total_price_acc": 0.3333333333333333,
+    "item_exact_rate": 0.0,
+    "subtotal_ok": false,
+    "charges_recall": 0.5,
+    "total_ok": true,
+    "consistent": false
+  }
+}

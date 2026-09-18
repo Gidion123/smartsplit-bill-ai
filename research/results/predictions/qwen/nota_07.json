@@ -1,0 +1,60 @@
+{
+  "model": "Qwen-VL (Qwen3-VL-2B-Instruct)",
+  "receipt": "nota_07",
+  "error": null,
+  "raw_output": "```json\n{\n  \"merchant_name\": \"OH! SOME\",\n  \"items\": [\n    {\n      \"name\": \"BO!-1 (Indonesia) paper shoppingbag small\",\n      \"quantity\": 1,\n      \"unit_price\": 25000,\n      \"total_price\": 25000\n    },\n    {\n      \"name\": \"Dear Me Beauty-Serum LipTint - Dear Vania 3.5ml\",\n      \"quantity\": 1,\n      \"unit_price\": 45900,\n      \"total_price\": 45900\n    },\n    {\n      \"name\": \"Mostorhata-White Victory3D Embroidery HardtopBaseball Cap\",\n      \"quantity\": 1,\n      \"unit_price\": 99000,\n      \"total_price\": 99000\n    }\n  ],\n  \"subtotal\": 169900,\n  \"charges\": [\n    {\n      \"name\": \"Diskon produk\",\n      \"amount\": 14558\n    }\n  ],\n  \"total\": 155342\n}\n```",
+  "parsed": {
+    "merchant_name": "OH! SOME",
+    "items": [
+      {
+        "name": "BO!-1 (Indonesia) paper shoppingbag small",
+        "quantity": 1.0,
+        "unit_price": 25000.0,
+        "total_price": 25000.0
+      },
+      {
+        "name": "Dear Me Beauty-Serum LipTint - Dear Vania 3.5ml",
+        "quantity": 1.0,
+        "unit_price": 45900.0,
+        "total_price": 45900.0
+      },
+      {
+        "name": "Mostorhata-White Victory3D Embroidery HardtopBaseball Cap",
+        "quantity": 1.0,
+        "unit_price": 99000.0,
+        "total_price": 99000.0
+      }
+    ],
+    "subtotal": 169900.0,
+    "charges": [
+      {
+        "name": "Diskon produk",
+        "amount": 14558.0
+      }
+    ],
+    "total": 155342.0
+  },
+  "run_summary": {
+    "total_runs": 3,
+    "successful_runs": 2,
+    "failed_runs": 1,
+    "success_rate": 0.6666666666666666
+  },
+  "metrics": {
+    "parsed": true,
+    "n_gt_items": 3,
+    "n_pred_items": 3,
+    "item_precision": 1.0,
+    "item_recall": 1.0,
+    "item_f1": 1.0,
+    "name_cer": 0.007246376811594203,
+    "qty_acc": 1.0,
+    "unit_price_acc": 0.6666666666666666,
+    "total_price_acc": 0.6666666666666666,
+    "item_exact_rate": 0.6666666666666666,
+    "subtotal_ok": false,
+    "charges_recall": 0.0,
+    "total_ok": false,
+    "consistent": true
+  }
+}

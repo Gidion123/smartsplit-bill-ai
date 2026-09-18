@@ -1,0 +1,64 @@
+{
+  "model": "DeepSeek (deepseek-flash)",
+  "receipt": "nota_03",
+  "error": null,
+  "raw_output": "```json\n{\n  \"merchant_name\": \"PT. SUMBER ALFARIA TRIJAYA, TBK\",\n  \"items\": [\n    {\n      \"name\": \"MR HOT BLD 706\",\n      \"quantity\": 1,\n      \"unit_price\": 5400,\n      \"total_price\": 5400\n    },\n    {\n      \"name\": \"#/FRIES 2000 P\",\n      \"quantity\": 1,\n      \"unit_price\": 3000,\n      \"total_price\": 3000\n    },\n    {\n      \"name\": \"KANTONG PLS M\",\n      \"quantity\": 1,\n      \"unit_price\": 1,\n      \"total_price\": 1\n    }\n  ],\n  \"subtotal\": 8401,\n  \"charges\": [\n    {\n      \"name\": \"Diskon\",\n      \"amount\": -1500\n    },\n    {\n      \"name\": \"Diskon\",\n      \"amount\": -1\n    }\n  ],\n  \"total\": 6900\n}\n```",
+  "parsed": {
+    "merchant_name": "PT. SUMBER ALFARIA TRIJAYA, TBK",
+    "items": [
+      {
+        "name": "MR HOT BLD 706",
+        "quantity": 1.0,
+        "unit_price": 5400.0,
+        "total_price": 5400.0
+      },
+      {
+        "name": "#/FRIES 2000 P",
+        "quantity": 1.0,
+        "unit_price": 3000.0,
+        "total_price": 3000.0
+      },
+      {
+        "name": "KANTONG PLS M",
+        "quantity": 1.0,
+        "unit_price": 1.0,
+        "total_price": 1.0
+      }
+    ],
+    "subtotal": 8401.0,
+    "charges": [
+      {
+        "name": "Diskon",
+        "amount": -1500.0
+      },
+      {
+        "name": "Diskon",
+        "amount": -1.0
+      }
+    ],
+    "total": 6900.0
+  },
+  "run_summary": {
+    "total_runs": 1,
+    "successful_runs": 1,
+    "failed_runs": 0,
+    "success_rate": 1.0
+  },
+  "metrics": {
+    "parsed": true,
+    "n_gt_items": 3,
+    "n_pred_items": 3,
+    "item_precision": 1.0,
+    "item_recall": 1.0,
+    "item_f1": 1.0,
+    "name_cer": 0.07142857142857142,
+    "qty_acc": 1.0,
+    "unit_price_acc": 1.0,
+    "total_price_acc": 1.0,
+    "item_exact_rate": 0.6666666666666666,
+    "subtotal_ok": true,
+    "charges_recall": 1.0,
+    "total_ok": true,
+    "consistent": true
+  }
+}

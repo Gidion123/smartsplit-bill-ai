@@ -1,0 +1,64 @@
+{
+  "model": "DeepSeek (deepseek-flash)",
+  "receipt": "nota_19",
+  "error": null,
+  "raw_output": "{\"merchant_name\": \"Hiro Donuts & Coffee Alianyang\", \"items\": [{\"name\": \"Pistachoco\", \"quantity\": 1, \"unit_price\": 12127, \"total_price\": 12127}, {\"name\": \"Kiwi Breeze\", \"quantity\": 1, \"unit_price\": 12127, \"total_price\": 12127}, {\"name\": \"Air Mineral\", \"quantity\": 1, \"unit_price\": 8181, \"total_price\": 8181}], \"subtotal\": 33635, \"charges\": [{\"name\": \"PB1\", \"amount\": 3364}, {\"name\": \"Pembulatan\", \"amount\": 1}], \"total\": 37000}",
+  "parsed": {
+    "merchant_name": "Hiro Donuts & Coffee Alianyang",
+    "items": [
+      {
+        "name": "Pistachoco",
+        "quantity": 1.0,
+        "unit_price": 12127.0,
+        "total_price": 12127.0
+      },
+      {
+        "name": "Kiwi Breeze",
+        "quantity": 1.0,
+        "unit_price": 12127.0,
+        "total_price": 12127.0
+      },
+      {
+        "name": "Air Mineral",
+        "quantity": 1.0,
+        "unit_price": 8181.0,
+        "total_price": 8181.0
+      }
+    ],
+    "subtotal": 33635.0,
+    "charges": [
+      {
+        "name": "PB1",
+        "amount": 3364.0
+      },
+      {
+        "name": "Pembulatan",
+        "amount": 1.0
+      }
+    ],
+    "total": 37000.0
+  },
+  "run_summary": {
+    "total_runs": 1,
+    "successful_runs": 1,
+    "failed_runs": 0,
+    "success_rate": 1.0
+  },
+  "metrics": {
+    "parsed": true,
+    "n_gt_items": 3,
+    "n_pred_items": 3,
+    "item_precision": 1.0,
+    "item_recall": 1.0,
+    "item_f1": 1.0,
+    "name_cer": 0.07407407407407407,
+    "qty_acc": 1.0,
+    "unit_price_acc": 0.3333333333333333,
+    "total_price_acc": 0.3333333333333333,
+    "item_exact_rate": 0.3333333333333333,
+    "subtotal_ok": true,
+    "charges_recall": 1.0,
+    "total_ok": true,
+    "consistent": false
+  }
+}

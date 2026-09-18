@@ -1,0 +1,165 @@
+{
+  "merchant_name": null,
+  "items": [
+    {
+      "name": "NAMA SUKA RUMPUT LT 9",
+      "quantity": 1,
+      "unit_price": 13900,
+      "total_price": 13900
+    },
+    {
+      "name": "NICE FC 2637 KILOAN 2",
+      "quantity": 1,
+      "unit_price": 40700,
+      "total_price": 40700
+    },
+    {
+      "name": "PASEO NB MPS SOS CHAMOMIL",
+      "quantity": 2,
+      "unit_price": 11200,
+      "total_price": 22400
+    },
+    {
+      "name": "MVAC SP SLIME CANTBAR",
+      "quantity": 1,
+      "unit_price": 28000,
+      "total_price": 28000
+    },
+    {
+      "name": "KUE SEMPRONG/PRIANGAN",
+      "quantity": 1,
+      "unit_price": 7500,
+      "total_price": 7500
+    },
+    {
+      "name": "SELECTION KAPAS 50 03",
+      "quantity": 1,
+      "unit_price": 9900,
+      "total_price": 9900
+    },
+    {
+      "name": "DAHLIA F-S01 FRUIT PU",
+      "quantity": 1,
+      "unit_price": 11500,
+      "total_price": 11500
+    },
+    {
+      "name": "BEST WOK MIE CNG 80G",
+      "quantity": 1,
+      "unit_price": 4900,
+      "total_price": 4900
+    },
+    {
+      "name": "BEST WOK MIE GRG 80G",
+      "quantity": 1,
+      "unit_price": 4900,
+      "total_price": 4900
+    },
+    {
+      "name": "KUE SEMPRONG JAWA BSR",
+      "quantity": 1,
+      "unit_price": 29000,
+      "total_price": 29000
+    },
+    {
+      "name": "STELLA AF 200M BAL:1NE",
+      "quantity": 1,
+      "unit_price": 19200,
+      "total_price": 19200
+    },
+    {
+      "name": "SOSOFT LO DTRG 700M R",
+      "quantity": 1,
+      "unit_price": 23900,
+      "total_price": 23900
+    },
+    {
+      "name": "NIVEA RO WM 75M EXT",
+      "quantity": 1,
+      "unit_price": 20500,
+      "total_price": 20500
+    },
+    {
+      "name": "MISTER PTT 10CG ORIGI",
+      "quantity": 1,
+      "unit_price": 11500,
+      "total_price": 11500
+    },
+    {
+      "name": "DAHLIA F-S01 APPLE 75",
+      "quantity": 1,
+      "unit_price": 4900,
+      "total_price": 4900
+    },
+    {
+      "name": "BEST WOK MIE GRG 85G",
+      "quantity": 1,
+      "unit_price": 9600,
+      "total_price": 9600
+    },
+    {
+      "name": "BPAK BLU MEDAN CURAH:1KG",
+      "quantity": 0.25,
+      "unit_price": 50000,
+      "total_price": 12500
+    },
+    {
+      "name": "LEMONILO BROWNIES CHSP",
+      "quantity": 1,
+      "unit_price": 11900,
+      "total_price": 11900
+    },
+    {
+      "name": "GERY KRAKER BERAS 10X",
+      "quantity": 1,
+      "unit_price": 12500,
+      "total_price": 12500
+    },
+    {
+      "name": "BISKUAT ENERGI 106.4G",
+      "quantity": 1,
+      "unit_price": 8900,
+      "total_price": 8900
+    },
+    {
+      "name": "INDOMIE 75G KALDU AYAM;PC",
+      "quantity": 4,
+      "unit_price": 2800,
+      "total_price": 11200
+    },
+    {
+      "name": "NABATI WF 110G RICHEE",
+      "quantity": 1,
+      "unit_price": 5300,
+      "total_price": 5300
+    }
+  ],
+  "subtotal": null,
+  "charges": [
+    {
+      "name": "disc",
+      "amount": -8000
+    },
+    {
+      "name": "disc",
+      "amount": -1400
+    },
+    {
+      "name": "disc",
+      "amount": -8400
+    },
+    {
+      "name": "disc",
+      "amount": -2700
+    },
+    {
+      "name": "disc",
+      "amount": -3500
+    },
+    {
+      "name": "disc",
+      "amount": -7000
+    }
+  ],
+  "total": 293600
+}

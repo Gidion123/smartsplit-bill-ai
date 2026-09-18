@@ -1,0 +1,29 @@
+{
+  "merchant_name": "SUMOsmokes Merdeka",
+  "items": [
+    {
+      "name": "Matcha Green Tea",
+      "quantity": 1,
+      "unit_price": 18181,
+      "total_price": 18181
+    },
+    {
+      "name": "Chicken Katsu Mentai Roll",
+      "quantity": 1,
+      "unit_price": 25454,
+      "total_price": 25454
+    }
+  ],
+  "subtotal": 43635,
+  "charges": [
+    {
+      "name": "PB1(10%)",
+      "amount": 4364
+    },
+    {
+      "name": "Rounding Amount",
+      "amount": 2
+    }
+  ],
+  "total": 48000
+}

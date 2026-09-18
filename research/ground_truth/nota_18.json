@@ -1,0 +1,25 @@
+{
+  "merchant_name": "KFC",
+  "items": [
+    {
+      "name": "9PCS CHIC-WINGS",
+      "quantity": 2,
+      "unit_price": 152273,
+      "total_price": 304546
+    },
+    {
+      "name": "CHAFEE TA",
+      "quantity": 4,
+      "unit_price": 1818,
+      "total_price": 7272
+    }
+  ],
+  "subtotal": 311818,
+  "charges": [
+    {
+      "name": "P.Rest 10%",
+      "amount": 31182
+    }
+  ],
+  "total": 343000
+}

@@ -1,0 +1,73 @@
+{
+  "merchant_name": "DO RE MI",
+  "items": [
+    {
+      "name": "NESTLE MINERAL 600",
+      "quantity": 1,
+      "unit_price": 5000,
+      "total_price": 5000
+    },
+    {
+      "name": "IMPLORA BLUEBERRY SHEET MASK",
+      "quantity": 2,
+      "unit_price": 3298,
+      "total_price": 6596
+    },
+    {
+      "name": "SANIYE ESD LOVE 12 WRNA 03",
+      "quantity": 1,
+      "unit_price": 38500,
+      "total_price": 38500
+    },
+    {
+      "name": "TATA DEO B.OPIUM",
+      "quantity": 1,
+      "unit_price": 9500,
+      "total_price": 9500
+    },
+    {
+      "name": "JPT RMBUT YY799",
+      "quantity": 1,
+      "unit_price": 12000,
+      "total_price": 12000
+    },
+    {
+      "name": "OMG LIQ FOND 13C",
+      "quantity": 1,
+      "unit_price": 19000,
+      "total_price": 19000
+    },
+    {
+      "name": "KELLY PEARL CREAM",
+      "quantity": 1,
+      "unit_price": 6000,
+      "total_price": 6000
+    },
+    {
+      "name": "7000",
+      "quantity": 1,
+      "unit_price": 7000,
+      "total_price": 7000
+    },
+    {
+      "name": "XI XIU LIP STAIN 02",
+      "quantity": 1,
+      "unit_price": 17000,
+      "total_price": 17000
+    },
+    {
+      "name": "CIPTADENT COOL MINT 120G",
+      "quantity": 1,
+      "unit_price": 8500,
+      "total_price": 8500
+    }
+  ],
+  "subtotal": null,
+  "charges": [
+    {
+      "name": "Diskon IMPLORA BLUEBERRY SHEET MASK 15%",
+      "amount": -989
+    }
+  ],
+  "total": 128107
+}

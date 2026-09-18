@@ -1,0 +1,5 @@
+# eksperimen notebook & testing
+-r requirements-local.txt
+pytest==9.1.1
+jupyter
+matplotlib==3.11.2

@@ -1,0 +1,20 @@
+{
+  "merchant_name": "ALFAMART",
+  "items": [
+    {
+      "name": "SARI ROTI KRM CK",
+      "quantity": 1,
+      "unit_price": 3500,
+      "total_price": 3500
+    },
+    {
+      "name": "OVALTINE 3IN1 12X",
+      "quantity": 1,
+      "unit_price": 28500,
+      "total_price": 28500
+    }
+  ],
+  "subtotal": 32000,
+  "charges": [],
+  "total": 32000
+}

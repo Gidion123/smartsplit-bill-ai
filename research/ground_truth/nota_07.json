@@ -1,0 +1,31 @@
+{
+  "merchant_name": "OH!SOME",
+  "items": [
+    {
+      "name": "BO-1 (Indonesia) paper shoppingbag small",
+      "quantity": 1,
+      "unit_price": 2000,
+      "total_price": 2000
+    },
+    {
+      "name": "Dear Me Beauty Serum Lip Tint - Dear Vania 3.5ml",
+      "quantity": 1,
+      "unit_price": 45900,
+      "total_price": 45900
+    },
+    {
+      "name": "Mostorhata-White Victory3D Embroidery HardtopBaseball Cap",
+      "quantity": 1,
+      "unit_price": 99000,
+      "total_price": 99000
+    }
+  ],
+  "subtotal": 146900,
+  "charges": [
+    {
+      "name": "Diskon produk ID-11%(11.0%)",
+      "amount": -14558
+    }
+  ],
+  "total": 146900
+}

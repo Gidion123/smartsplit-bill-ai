@@ -1,0 +1,54 @@
+{
+  "model": "Donut (CORD-v2)",
+  "receipt": "nota_01",
+  "error": null,
+  "raw_output": "<s_menu><s_nm> ALFAMART STA.KARET</s_nm><s_num> PT. SUMBER ALFARIA TRIJAYA,TBK</s_num><s_price> JL.MH. THAMRIN NO.9,CIKOKOL, TANGGANG</s_nm><s_num> NPWP : 01.336.238.9-054.000</s_num><s_price> ABAN</s_price><sep/><s_nm> L. DUKUH PINGGIR, NO. 1, (ST TANAH</s_nm><s_num> Bon</s_nm><s_num> KC79-805-19050MK8</s_unitprice><s_cnt> 1</s_cnt><s_price> mufti ac</s_price><sep/><s_nm> SARI ROTI SW CK</s_nm><s_unitprice> 4,500</s_unitprice><s_cnt> 1</s_cnt><s_price> 4,500</s_price></s_menu><s_sub_total><s_subtotal_price> 4,500</s_subtotal_price><s_tax_price> 4,500</s_tax_price></s_sub_total><s_total><s_total_price> 5,000</s_total_price><s_total_etc> 500</s_total_etc><s_emoneyprice> 19-05-2017</s_emoneyprice></s_total>",
+  "parsed": {
+    "merchant_name": null,
+    "items": [
+      {
+        "name": "ALFAMART STA.KARET",
+        "quantity": 1.0,
+        "unit_price": null,
+        "total_price": -13362389054000.0
+      },
+      {
+        "name": "SARI ROTI SW CK",
+        "quantity": 1.0,
+        "unit_price": 4500.0,
+        "total_price": 4500.0
+      }
+    ],
+    "subtotal": 4500.0,
+    "charges": [
+      {
+        "name": "Pajak",
+        "amount": 4500.0
+      }
+    ],
+    "total": 5000.0
+  },
+  "run_summary": {
+    "total_runs": 3,
+    "successful_runs": 3,
+    "failed_runs": 0,
+    "success_rate": 1.0
+  },
+  "metrics": {
+    "parsed": true,
+    "n_gt_items": 1,
+    "n_pred_items": 2,
+    "item_precision": 0.5,
+    "item_recall": 1.0,
+    "item_f1": 0.6666666666666666,
+    "name_cer": 0.0,
+    "qty_acc": 1.0,
+    "unit_price_acc": 1.0,
+    "total_price_acc": 1.0,
+    "item_exact_rate": 1.0,
+    "subtotal_ok": true,
+    "charges_recall": 1.0,
+    "total_ok": false,
+    "consistent": false
+  }
+}

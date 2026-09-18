@@ -1,0 +1,26 @@
+{
+  "merchant_name": "Mie Ayam Bakso Bavor",
+  "items": [
+    {
+      "name": "Mie Ayam Bakso",
+      "quantity": 1,
+      "unit_price": 20000,
+      "total_price": 20000
+    },
+    {
+      "name": "Bakso Telor",
+      "quantity": 1,
+      "unit_price": 20000,
+      "total_price": 20000
+    },
+    {
+      "name": "Es Teh Manis",
+      "quantity": 3,
+      "unit_price": 5000,
+      "total_price": 15000
+    }
+  ],
+  "subtotal": 55000,
+  "charges": [],
+  "total": 55000
+}

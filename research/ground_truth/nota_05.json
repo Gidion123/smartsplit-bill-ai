@@ -1,0 +1,39 @@
+{
+  "merchant_name": "BEE COSMETICS",
+  "items": [
+    {
+      "name": "WRH UV SHIELD ACNE CALM SPF50 (BSR) 40ML",
+      "quantity": 1,
+      "unit_price": 59000,
+      "total_price": 59000
+    },
+    {
+      "name": "DERMA ANGEL ACNE PATCH SALICYLIC NIGHT ISI 12 Q3",
+      "quantity": 1,
+      "unit_price": 41000,
+      "total_price": 41000
+    },
+    {
+      "name": "DERMA ANGEL ACNE PATCH SALICYLIC DAY ISI 12 Q3",
+      "quantity": 1,
+      "unit_price": 39000,
+      "total_price": 39000
+    }
+  ],
+  "subtotal": 122150,
+  "charges": [
+    {
+      "name": "DISC",
+      "amount": -8850
+    },
+    {
+      "name": "DISC",
+      "amount": -4100
+    },
+    {
+      "name": "DISC",
+      "amount": -3900
+    }
+  ],
+  "total": 122150
+}

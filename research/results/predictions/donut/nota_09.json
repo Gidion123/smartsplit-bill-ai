@@ -1,0 +1,60 @@
+{
+  "model": "Donut (CORD-v2)",
+  "receipt": "nota_09",
+  "error": null,
+  "raw_output": "<s_menu><s_nm> Junior Fried Chicken</s_nm><s_unitprice> Haji Mukhsin</s_nm><s_unitprice> Kubin Raya</s_nm><s_unitprice> TAKE-AWAY</s_unitprice><s_cnt> 101</s_cnt><s_price> 18:41</s_price><sep/><s_nm> No. 251002-1841-11PR2</s_nm><s_unitprice> 02-10-25</s_unitprice><s_cnt> 41</s_cnt><s_price> 18:</s_price><sep/><s_nm> OPEN 02-10-25</s_nm><s_unitprice> 18: 41</s_unitprice><s_cnt> 1</s_cnt><s_price> 17,000</s_price></s_menu><s_sub_total><s_subtotal_price> 6,000</s_subtotal_price><s_discount_price> 6,000</s_discount_price></s_sub_total><s_total><s_total_price> 23,000</s_total_price><s_cashprice> 40,000</s_cashprice><s_changeprice> 17,000</s_changeprice></s_total>",
+  "parsed": {
+    "merchant_name": null,
+    "items": [
+      {
+        "name": "Junior Fried Chicken",
+        "quantity": 101.0,
+        "unit_price": null,
+        "total_price": 1841.0
+      },
+      {
+        "name": "No. 251002-1841-11PR2",
+        "quantity": 41.0,
+        "unit_price": -21025.0,
+        "total_price": 18.0
+      },
+      {
+        "name": "OPEN 02-10-25",
+        "quantity": 1.0,
+        "unit_price": 1841.0,
+        "total_price": 17000.0
+      }
+    ],
+    "subtotal": 6000.0,
+    "charges": [
+      {
+        "name": "Diskon",
+        "amount": -6000.0
+      }
+    ],
+    "total": 23000.0
+  },
+  "run_summary": {
+    "total_runs": 3,
+    "successful_runs": 3,
+    "failed_runs": 0,
+    "success_rate": 1.0
+  },
+  "metrics": {
+    "parsed": true,
+    "n_gt_items": 2,
+    "n_pred_items": 3,
+    "item_precision": 0.3333333333333333,
+    "item_recall": 0.5,
+    "item_f1": 0.4,
+    "name_cer": 0.7619047619047619,
+    "qty_acc": 0.0,
+    "unit_price_acc": 0.0,
+    "total_price_acc": 0.0,
+    "item_exact_rate": 0.0,
+    "subtotal_ok": false,
+    "charges_recall": 1.0,
+    "total_ok": true,
+    "consistent": false
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "model": "DeepSeek (deepseek-flash)",
+  "receipt": "nota_18",
+  "error": null,
+  "raw_output": "{\"merchant_name\": \"KFC\", \"items\": [{\"name\": \"2 PCS Chick-Inner\", \"quantity\": 2, \"unit_price\": 30454, \"total_price\": 60909}, {\"name\": \"4 CHICKEN TA\", \"quantity\": 4, \"unit_price\": 62727, \"total_price\": 250909}], \"subtotal\": 311818, \"charges\": [{\"name\": \"Dasar Pengenaan Pajak\", \"amount\": 311818}, {\"name\": \"P-Pn 10%\", \"amount\": 31182}], \"total\": 343000}",
+  "parsed": {
+    "merchant_name": "KFC",
+    "items": [
+      {
+        "name": "2 PCS Chick-Inner",
+        "quantity": 2.0,
+        "unit_price": 30454.0,
+        "total_price": 60909.0
+      },
+      {
+        "name": "4 CHICKEN TA",
+        "quantity": 4.0,
+        "unit_price": 62727.0,
+        "total_price": 250909.0
+      }
+    ],
+    "subtotal": 311818.0,
+    "charges": [
+      {
+        "name": "Dasar Pengenaan Pajak",
+        "amount": 311818.0
+      },
+      {
+        "name": "P-Pn 10%",
+        "amount": 31182.0
+      }
+    ],
+    "total": 343000.0
+  },
+  "run_summary": {
+    "total_runs": 1,
+    "successful_runs": 1,
+    "failed_runs": 0,
+    "success_rate": 1.0
+  },
+  "metrics": {
+    "parsed": true,
+    "n_gt_items": 2,
+    "n_pred_items": 2,
+    "item_precision": 1.0,
+    "item_recall": 1.0,
+    "item_f1": 1.0,
+    "name_cer": 0.5666666666666667,
+    "qty_acc": 1.0,
+    "unit_price_acc": 0.0,
+    "total_price_acc": 0.0,
+    "item_exact_rate": 0.0,
+    "subtotal_ok": true,
+    "charges_recall": 1.0,
+    "total_ok": true,
+    "consistent": false
+  }
+}

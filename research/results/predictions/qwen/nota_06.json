@@ -1,0 +1,108 @@
+{
+  "model": "Qwen-VL (Qwen3-VL-2B-Instruct)",
+  "receipt": "nota_06",
+  "error": null,
+  "raw_output": "```json\n{\n  \"merchant_name\": \"HADIAH\",\n  \"items\": [\n    {\n      \"name\": \"NIVEA RO MNI 700M EXT\",\n      \"quantity\": 1,\n      \"unit_price\": 80000,\n      \"total_price\": 80000\n    },\n    {\n      \"name\": \"MISTER DTT 106G ORIGI\",\n      \"quantity\": 1,\n      \"unit_price\": 50000,\n      \"total_price\": 50000\n    },\n    {\n      \"name\": \"DAHLIA F-501 APPLE 75\",\n      \"quantity\": 1,\n      \"unit_price\": 40000,\n      \"total_price\": 40000\n    },\n    {\n      \"name\": \"BEST WOK MIE GNG BAG\",\n      \"quantity\": 1,\n      \"unit_price\": 40000,\n      \"total_price\": 40000\n    },\n    {\n      \"name\": \"STELLA AF 200M BALING\",\n      \"quantity\": 1,\n      \"unit_price\": 50000,\n      \"total_price\": 50000\n    },\n    {\n      \"name\": \"SOSOFT LG DTRA 700M K\",\n      \"quantity\": 1,\n      \"unit_price\": 60000,\n      \"total_price\": 60000\n    },\n    {\n      \"name\": \"LIMONILO BRANWES CRISP\",\n      \"quantity\": 1,\n      \"unit_price\": 10000,\n      \"total_price\": 10000\n    },\n    {\n      \"name\": \"GELY KRACKER SERAS 10X\",\n      \"quantity\": 1,\n      \"unit_price\": 30000,\n      \"total_price\": 30000\n    },\n    {\n      \"name\": \"SUSUJAT ENERGI 100.40\",\n      \"quantity\": 1,\n      \"unit_price\": 20000,\n      \"total_price\": 20000\n    },\n    {\n      \"name\": \"INDONIE 75G KALDUN AYAM/PC\",\n      \"quantity\": 1,\n      \"unit_price\": 10000,\n      \"total_price\": 10000\n    },\n    {\n      \"name\": \"NABATI WF 1100 RICHEE\",\n      \"quantity\": 1,\n      \"unit_price\": 20000,\n      \"total_price\": 20000\n    }\n  ],\n  \"subtotal\": 270000,\n  \"charges\": [\n    {\n      \"name\": \"Pajak 10%\",\n      \"amount\": 27000\n    }\n  ],\n  \"total\": 297000\n}\n```",
+  "parsed": {
+    "merchant_name": "HADIAH",
+    "items": [
+      {
+        "name": "NIVEA RO MNI 700M EXT",
+        "quantity": 1.0,
+        "unit_price": 80000.0,
+        "total_price": 80000.0
+      },
+      {
+        "name": "MISTER DTT 106G ORIGI",
+        "quantity": 1.0,
+        "unit_price": 50000.0,
+        "total_price": 50000.0
+      },
+      {
+        "name": "DAHLIA F-501 APPLE 75",
+        "quantity": 1.0,
+        "unit_price": 40000.0,
+        "total_price": 40000.0
+      },
+      {
+        "name": "BEST WOK MIE GNG BAG",
+        "quantity": 1.0,
+        "unit_price": 40000.0,
+        "total_price": 40000.0
+      },
+      {
+        "name": "STELLA AF 200M BALING",
+        "quantity": 1.0,
+        "unit_price": 50000.0,
+        "total_price": 50000.0
+      },
+      {
+        "name": "SOSOFT LG DTRA 700M K",
+        "quantity": 1.0,
+        "unit_price": 60000.0,
+        "total_price": 60000.0
+      },
+      {
+        "name": "LIMONILO BRANWES CRISP",
+        "quantity": 1.0,
+        "unit_price": 10000.0,
+        "total_price": 10000.0
+      },
+      {
+        "name": "GELY KRACKER SERAS 10X",
+        "quantity": 1.0,
+        "unit_price": 30000.0,
+        "total_price": 30000.0
+      },
+      {
+        "name": "SUSUJAT ENERGI 100.40",
+        "quantity": 1.0,
+        "unit_price": 20000.0,
+        "total_price": 20000.0
+      },
+      {
+        "name": "INDONIE 75G KALDUN AYAM/PC",
+        "quantity": 1.0,
+        "unit_price": 10000.0,
+        "total_price": 10000.0
+      },
+      {
+        "name": "NABATI WF 1100 RICHEE",
+        "quantity": 1.0,
+        "unit_price": 20000.0,
+        "total_price": 20000.0
+      }
+    ],
+    "subtotal": 270000.0,
+    "charges": [
+      {
+        "name": "Pajak 10%",
+        "amount": 27000.0
+      }
+    ],
+    "total": 297000.0
+  },
+  "run_summary": {
+    "total_runs": 3,
+    "successful_runs": 2,
+    "failed_runs": 1,
+    "success_rate": 0.6666666666666666
+  },
+  "metrics": {
+    "parsed": true,
+    "n_gt_items": 22,
+    "n_pred_items": 11,
+    "item_precision": 1.0,
+    "item_recall": 0.5,
+    "item_f1": 0.6666666666666666,
+    "name_cer": 0.1512866877938648,
+    "qty_acc": 0.45454545454545453,
+    "unit_price_acc": 0.0,
+    "total_price_acc": 0.0,
+    "item_exact_rate": 0.0,
+    "subtotal_ok": false,
+    "charges_recall": 0.0,
+    "total_ok": false,
+    "consistent": false
+  }
+}

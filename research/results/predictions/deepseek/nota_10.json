@@ -1,0 +1,61 @@
+{
+  "model": "DeepSeek (deepseek-flash)",
+  "receipt": "nota_10",
+  "error": null,
+  "raw_output": "{\"merchant_name\": \"Mie Ayam Bakso. Bakor\", \"items\": [{\"name\": \"Mie Ayam Bakso\", \"quantity\": 1, \"unit_price\": 20000, \"total_price\": 20000}, {\"name\": \"Porsi\", \"quantity\": 1, \"unit_price\": 20000, \"total_price\": 20000}, {\"name\": \"Taksa Telor\", \"quantity\": 1, \"unit_price\": 20000, \"total_price\": 20000}, {\"name\": \"Es Teh Manis\", \"quantity\": 3, \"unit_price\": 5000, \"total_price\": 15000}], \"subtotal\": 55000, \"charges\": [], \"total\": 55000}",
+  "parsed": {
+    "merchant_name": "Mie Ayam Bakso. Bakor",
+    "items": [
+      {
+        "name": "Mie Ayam Bakso",
+        "quantity": 1.0,
+        "unit_price": 20000.0,
+        "total_price": 20000.0
+      },
+      {
+        "name": "Porsi",
+        "quantity": 1.0,
+        "unit_price": 20000.0,
+        "total_price": 20000.0
+      },
+      {
+        "name": "Taksa Telor",
+        "quantity": 1.0,
+        "unit_price": 20000.0,
+        "total_price": 20000.0
+      },
+      {
+        "name": "Es Teh Manis",
+        "quantity": 3.0,
+        "unit_price": 5000.0,
+        "total_price": 15000.0
+      }
+    ],
+    "subtotal": 55000.0,
+    "charges": [],
+    "total": 55000.0
+  },
+  "run_summary": {
+    "total_runs": 1,
+    "successful_runs": 1,
+    "failed_runs": 0,
+    "success_rate": 1.0
+  },
+  "metrics": {
+    "parsed": true,
+    "n_gt_items": 3,
+    "n_pred_items": 4,
+    "item_precision": 0.75,
+    "item_recall": 1.0,
+    "item_f1": 0.8571428571428571,
+    "name_cer": 0.06060606060606061,
+    "qty_acc": 1.0,
+    "unit_price_acc": 1.0,
+    "total_price_acc": 1.0,
+    "item_exact_rate": 0.6666666666666666,
+    "subtotal_ok": true,
+    "charges_recall": 1.0,
+    "total_ok": true,
+    "consistent": false
+  }
+}

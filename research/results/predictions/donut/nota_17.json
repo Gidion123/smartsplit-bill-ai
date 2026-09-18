@@ -1,0 +1,70 @@
+{
+  "model": "Donut (CORD-v2)",
+  "receipt": "nota_17",
+  "error": null,
+  "raw_output": "<s_menu><s_nm> SUMOsmokes Meldeka<sep/></s_nm><s_unitprice> 17:44</s_unitprice><s_cnt> 12</s_cnt><s_price> 17:44</s_price><sep/><s_nm> Sep 2025</s_nm><s_price> G.I.Z.30W</s_price><sep/><s_nm> VET les 1</s_nm><s_price> GFHO032</s_price><sep/><s_nm> Mardeka</s_nm><s_unitprice> 18,181)</s_unitprice><s_cnt> 1</s_cnt><s_price> Rp. 43.635</s_price></s_menu><s_sub_total><s_subtotal_price> 43.635</s_subtotal_price><s_tax_price> Rp. 3,364</s_tax_price><s_etc> Rp. 2</s_etc></s_sub_total><s_total><s_total_price> 48.000</s_total_price><s_total_etc> 0</s_total_etc><s_changeprice> 0</s_changeprice><s_creditcardprice> 40,000</s_creditcardprice></s_total>",
+  "parsed": {
+    "merchant_name": null,
+    "items": [
+      {
+        "name": "SUMOsmokes Meldeka",
+        "quantity": 12.0,
+        "unit_price": 1744.0,
+        "total_price": 1744.0
+      },
+      {
+        "name": "Sep 2025",
+        "quantity": 1.0,
+        "unit_price": null,
+        "total_price": 30.0
+      },
+      {
+        "name": "VET les 1",
+        "quantity": 1.0,
+        "unit_price": null,
+        "total_price": 32.0
+      },
+      {
+        "name": "Mardeka",
+        "quantity": 1.0,
+        "unit_price": 18181.0,
+        "total_price": 43635.0
+      }
+    ],
+    "subtotal": 43635.0,
+    "charges": [
+      {
+        "name": "Pajak",
+        "amount": 3.364
+      },
+      {
+        "name": "Lain-lain",
+        "amount": 0.2
+      }
+    ],
+    "total": 48000.0
+  },
+  "run_summary": {
+    "total_runs": 3,
+    "successful_runs": 3,
+    "failed_runs": 0,
+    "success_rate": 1.0
+  },
+  "metrics": {
+    "parsed": true,
+    "n_gt_items": 2,
+    "n_pred_items": 4,
+    "item_precision": 0.0,
+    "item_recall": 0.0,
+    "item_f1": 0.0,
+    "name_cer": 1.0,
+    "qty_acc": 0.0,
+    "unit_price_acc": 0.0,
+    "total_price_acc": 0.0,
+    "item_exact_rate": 0.0,
+    "subtotal_ok": true,
+    "charges_recall": 0.0,
+    "total_ok": true,
+    "consistent": false
+  }
+}

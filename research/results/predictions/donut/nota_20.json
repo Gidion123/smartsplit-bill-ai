@@ -1,0 +1,90 @@
+{
+  "model": "Donut (CORD-v2)",
+  "receipt": "nota_20",
+  "error": null,
+  "raw_output": "<s_menu><s_nm> Il.Metdeke No.01, Tengah, Kec. Pontanak Kota, K oto Pontanak Kalimantan Barat</s_nm><s_cnt> 1</s_cnt><s_price> 78111</s_price><sep/><s_nm> Jl. Merdeka Barat No. 1</s_nm><s_unitprice> 628152000969</s_unitprice><s_cnt> 628</s_cnt><s_price> 78111</s_price><sep/><s_nm> Via / Dine In (V 5) / CASH senin. 06 Okt 2025</s_nm><s_unitprice> 11:47</s_unitprice><s_cnt> 5</s_cnt><s_price> 11:47 WIB</s_price><s_sub><s_nm> Ayam Bakar Rica</s_nm><s_cnt> 1</s_cnt><s_price> 22.210</s_price><s_sub><s_nm> Dada</s_nm><s_price> 0</s_price><sep/><s_nm> Paket B</s_nm><s_cnt> 1</s_cnt><s_price> 8.000</s_price><sep/><s_nm> Teh Menis</s_nm><s_price> 6.000</s_price><sep/><s_nm> Drugin</s_nm><s_price> 0</s_price><sep/><s_nm> Paket Sop Iga</s_nm><s_cnt> 1</s_cnt><s_price> 36.000</s_price><sep/><s_nm> Kom Parkir Motor</s_nm><s_cnt> 1</s_cnt><s_price> 2.000</s_price></s_menu><s_sub_total><s_subtotal_price> 74.210</s_subtotal_price><s_discount_price> 0</s_discount_price><s_etc> -10</s_etc></s_sub_total><s_total><s_total_price> 74.200</s_total_price><s_cashprice> 74.200</s_cashprice><s_changeprice> 0</s_changeprice><s_creditcardprice> 152000969</s_creditcardprice><s_menuqty_cnt> -10</s_menuqty_cnt></s_total>",
+  "parsed": {
+    "merchant_name": null,
+    "items": [
+      {
+        "name": "Il.Metdeke No.01, Tengah, Kec. Pontanak Kota, K oto Pontanak Kalimantan Barat",
+        "quantity": 1.0,
+        "unit_price": null,
+        "total_price": 78111.0
+      },
+      {
+        "name": "Jl. Merdeka Barat No. 1",
+        "quantity": 628.0,
+        "unit_price": 628152000969.0,
+        "total_price": 78111.0
+      },
+      {
+        "name": "Dada",
+        "quantity": 1.0,
+        "unit_price": 1147.0,
+        "total_price": 0.0
+      },
+      {
+        "name": "Paket B",
+        "quantity": 1.0,
+        "unit_price": null,
+        "total_price": 8000.0
+      },
+      {
+        "name": "Teh Menis",
+        "quantity": 1.0,
+        "unit_price": null,
+        "total_price": 6000.0
+      },
+      {
+        "name": "Drugin",
+        "quantity": 1.0,
+        "unit_price": null,
+        "total_price": 0.0
+      },
+      {
+        "name": "Paket Sop Iga",
+        "quantity": 1.0,
+        "unit_price": null,
+        "total_price": 36000.0
+      },
+      {
+        "name": "Kom Parkir Motor",
+        "quantity": 1.0,
+        "unit_price": null,
+        "total_price": 2000.0
+      }
+    ],
+    "subtotal": 74210.0,
+    "charges": [
+      {
+        "name": "Lain-lain",
+        "amount": -10.0
+      }
+    ],
+    "total": 74200.0
+  },
+  "run_summary": {
+    "total_runs": 3,
+    "successful_runs": 3,
+    "failed_runs": 0,
+    "success_rate": 1.0
+  },
+  "metrics": {
+    "parsed": true,
+    "n_gt_items": 5,
+    "n_pred_items": 8,
+    "item_precision": 0.5,
+    "item_recall": 0.8,
+    "item_f1": 0.6153846153846154,
+    "name_cer": 0.09290382819794585,
+    "qty_acc": 0.8,
+    "unit_price_acc": 0.0,
+    "total_price_acc": 0.8,
+    "item_exact_rate": 0.2,
+    "subtotal_ok": true,
+    "charges_recall": 1.0,
+    "total_ok": true,
+    "consistent": false
+  }
+}

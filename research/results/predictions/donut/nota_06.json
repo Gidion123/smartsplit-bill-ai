@@ -1,0 +1,67 @@
+{
+  "model": "Donut (CORD-v2)",
+  "receipt": "nota_06",
+  "error": null,
+  "raw_output": "<s_menu><s_nm> THO, 02 050人簽約 15,50</s_unitprice><s_cnt> 01 10,70</s_cnt><s_price> 13,900</s_price><sep/><s_nm> SUSPA TEMPHIT LT 9</s_nm><s_num> 60,700</s_num><s_unitprice> 40,700</s_unitprice><s_cnt> 0,000</s_cnt><s_discountprice> PAKSO MO, 71,200人</s_nm><s_num> 6,300人員 71,200人入住 28,000</s_discount_price><s_tax_price> 28,000</s_tax_price></s_sub_total><s_total><s_total_price> 3,500</s_total_price><s_cashprice> SENUCTION KOM 72,770</s_num><s_price> 23,500</s_price><sep/><s_nm> STEELA AF STEA 61,195651</s_nm><s_num> 50,500</s_num><s_price> 23,500</s_price><sep/><s_nm> TO12691</s_num><s_price> 28,000</s_price><sep/><s_nm> MISTER HO, TOL YAM, ZEM SUSPE 71,900</s_unitprice><s_cnt> 71,900</s_cnt><s_discountprice> PAKIS PETER</s_nm><s_num> 06,500</s_discountprice><s_price> 22,500</s_price><sep/><s_nm> BEST WORK MEDA, COHSP</s_nm><s_num> 7076163</s_num><s_price> 32,500</s_price><sep/><s_nm> PAKER GETA, NICK S GETA, 10X</s_nm><s_num> 6,500人<s_nm> RKEREGIT KAU, PCM</s_nm><s_num> 6,500</s_num><s_price> 8,000</s_price><sep/><s_nm> GERTA, NANGKA</s_nm><s_num> 6165891</s_num><s_unitprice> 75,00</s_unitprice><s_cnt> 14,000</s_cnt><s_price> 11,200</s_price><sep/><s_nm> RICHOCE</s_nm><s_num> 613,500</s_price><sep/><s_nm> NABAST*T W TOTOAL Rp.,</s_nm><s_num> 6131711</s_num><s_price> 29,600</s_price></s_menu><s_sub_total><s_subtotal_price> 293,600</s_subtotal_price><s_discount_price> 0</s_discount_price><s_tax_price> Rp. 0</s_tax_price><s_etc> 0<sep/> Rp. 0<sep/><s_nm> KEN B A L A N. N.: Rp.,體重 Rp. 31,000</s_etc></s_sub_total><s_total><s_total_price> Ruasih Axus<s_nm> Kursijngun</s_nm><s_num> Pakistan</s_nm><s_num> Berong Kunsakin POH</s_nm><s_num> Uintuk Karao Termoshak</s_nm><s_num> Termo</s_changeprice><s_menuqty_cnt> TeiD. co2,156903630</s_cashprice><s_menuqty_cnt> KOKOISKENON</s_nm></s_total>",
+  "parsed": {
+    "merchant_name": null,
+    "items": [
+      {
+        "name": "01 10,70",
+        "quantity": 1.0,
+        "unit_price": 40700.0,
+        "total_price": 22500.0
+      },
+      {
+        "name": "BEST WORK MEDA, COHSP",
+        "quantity": 1.0,
+        "unit_price": null,
+        "total_price": 32500.0
+      },
+      {
+        "name": "PAKER GETA, NICK S GETA, 10X",
+        "quantity": 1.0,
+        "unit_price": null,
+        "total_price": 8000.0
+      },
+      {
+        "name": "GERTA, NANGKA",
+        "quantity": 14.0,
+        "unit_price": 75.0,
+        "total_price": 11200.0
+      },
+      {
+        "name": "RICHOCE",
+        "quantity": 1.0,
+        "unit_price": null,
+        "total_price": 29600.0
+      }
+    ],
+    "subtotal": 293600.0,
+    "charges": [],
+    "total": null
+  },
+  "run_summary": {
+    "total_runs": 3,
+    "successful_runs": 3,
+    "failed_runs": 0,
+    "success_rate": 1.0
+  },
+  "metrics": {
+    "parsed": true,
+    "n_gt_items": 22,
+    "n_pred_items": 5,
+    "item_precision": 0.4,
+    "item_recall": 0.09090909090909091,
+    "item_f1": 0.14814814814814814,
+    "name_cer": 0.6309523809523809,
+    "qty_acc": 0.09090909090909091,
+    "unit_price_acc": 0.0,
+    "total_price_acc": 0.0,
+    "item_exact_rate": 0.0,
+    "subtotal_ok": false,
+    "charges_recall": 0.0,
+    "total_ok": false,
+    "consistent": false
+  }
+}

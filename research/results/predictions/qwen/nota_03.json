@@ -1,0 +1,60 @@
+{
+  "model": "Qwen-VL (Qwen3-VL-2B-Instruct)",
+  "receipt": "nota_03",
+  "error": null,
+  "raw_output": "```json\n{\n  \"merchant_name\": \"PT. SUMBER ALFARI TRJAYA, TBK\",\n  \"items\": [\n    {\n      \"name\": \"MR HOT BLD 705\",\n      \"quantity\": 1,\n      \"unit_price\": 5400,\n      \"total_price\": 5400\n    },\n    {\n      \"name\": \"FRIES 2000 P\",\n      \"quantity\": 1,\n      \"unit_price\": 3000,\n      \"total_price\": 3000\n    },\n    {\n      \"name\": \"KANTONG PLS M\",\n      \"quantity\": 1,\n      \"unit_price\": 3000,\n      \"total_price\": 3000\n    }\n  ],\n  \"subtotal\": 11400,\n  \"charges\": [\n    {\n      \"name\": \"PPN\",\n      \"amount\": 718\n    }\n  ],\n  \"total\": 12118\n}\n```",
+  "parsed": {
+    "merchant_name": "PT. SUMBER ALFARI TRJAYA, TBK",
+    "items": [
+      {
+        "name": "MR HOT BLD 705",
+        "quantity": 1.0,
+        "unit_price": 5400.0,
+        "total_price": 5400.0
+      },
+      {
+        "name": "FRIES 2000 P",
+        "quantity": 1.0,
+        "unit_price": 3000.0,
+        "total_price": 3000.0
+      },
+      {
+        "name": "KANTONG PLS M",
+        "quantity": 1.0,
+        "unit_price": 3000.0,
+        "total_price": 3000.0
+      }
+    ],
+    "subtotal": 11400.0,
+    "charges": [
+      {
+        "name": "PPN",
+        "amount": 718.0
+      }
+    ],
+    "total": 12118.0
+  },
+  "run_summary": {
+    "total_runs": 3,
+    "successful_runs": 3,
+    "failed_runs": 0,
+    "success_rate": 1.0
+  },
+  "metrics": {
+    "parsed": true,
+    "n_gt_items": 3,
+    "n_pred_items": 3,
+    "item_precision": 1.0,
+    "item_recall": 1.0,
+    "item_f1": 1.0,
+    "name_cer": 0.07142857142857142,
+    "qty_acc": 1.0,
+    "unit_price_acc": 0.6666666666666666,
+    "total_price_acc": 0.6666666666666666,
+    "item_exact_rate": 0.3333333333333333,
+    "subtotal_ok": false,
+    "charges_recall": 0.0,
+    "total_ok": false,
+    "consistent": true
+  }
+}

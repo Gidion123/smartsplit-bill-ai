@@ -1,0 +1,54 @@
+{
+  "model": "Qwen-VL (Qwen3-VL-2B-Instruct)",
+  "receipt": "nota_02",
+  "error": null,
+  "raw_output": "```json\n{\n  \"merchant_name\": \"ALFAHART TENTARA PELAJAR SULK\",\n  \"items\": [\n    {\n      \"name\": \"SARI ROTI KREM CK\",\n      \"quantity\": 1,\n      \"unit_price\": 3500,\n      \"total_price\": 3500\n    },\n    {\n      \"name\": \"OVALTINE 3IN1 12X\",\n      \"quantity\": 1,\n      \"unit_price\": 28500,\n      \"total_price\": 28500\n    }\n  ],\n  \"subtotal\": 32000,\n  \"charges\": [\n    {\n      \"name\": \"PPN\",\n      \"amount\": 2909\n    }\n  ],\n  \"total\": 34909\n}\n```",
+  "parsed": {
+    "merchant_name": "ALFAHART TENTARA PELAJAR SULK",
+    "items": [
+      {
+        "name": "SARI ROTI KREM CK",
+        "quantity": 1.0,
+        "unit_price": 3500.0,
+        "total_price": 3500.0
+      },
+      {
+        "name": "OVALTINE 3IN1 12X",
+        "quantity": 1.0,
+        "unit_price": 28500.0,
+        "total_price": 28500.0
+      }
+    ],
+    "subtotal": 32000.0,
+    "charges": [
+      {
+        "name": "PPN",
+        "amount": 2909.0
+      }
+    ],
+    "total": 34909.0
+  },
+  "run_summary": {
+    "total_runs": 3,
+    "successful_runs": 3,
+    "failed_runs": 0,
+    "success_rate": 1.0
+  },
+  "metrics": {
+    "parsed": true,
+    "n_gt_items": 2,
+    "n_pred_items": 2,
+    "item_precision": 1.0,
+    "item_recall": 1.0,
+    "item_f1": 1.0,
+    "name_cer": 0.03125,
+    "qty_acc": 1.0,
+    "unit_price_acc": 1.0,
+    "total_price_acc": 1.0,
+    "item_exact_rate": 1.0,
+    "subtotal_ok": true,
+    "charges_recall": 1.0,
+    "total_ok": false,
+    "consistent": true
+  }
+}

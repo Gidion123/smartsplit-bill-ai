@@ -1,0 +1,14 @@
+{
+  "merchant_name": "Guulak Merdeka",
+  "items": [
+    {
+      "name": "Yangyeom Chicken Bap",
+      "quantity": 1,
+      "unit_price": 25000,
+      "total_price": 25000
+    }
+  ],
+  "subtotal": 25000,
+  "charges": [],
+  "total": 25000
+}

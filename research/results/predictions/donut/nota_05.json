@@ -1,0 +1,67 @@
+{
+  "model": "Donut (CORD-v2)",
+  "receipt": "nota_05",
+  "error": null,
+  "raw_output": "<s_menu><s_nm> W/TLP: 0812 5483</s_nm><s_num> AP7</s_num><s_price> 5511</s_price><sep/><s_nm> SHOPEE : BEE COSMETICS OFFICIAL CASH</s_nm><s_num> 251000604</s_num><s_price> aldo</s_price><sep/><s_nm> WRI UV SHIELD ACNE CALM SPF 50</s_nm><s_num> (BSR) 40ML</s_num><s_unitprice> 59.000</s_unitprice><s_cnt> 1 x</s_cnt><s_discountprice> 50.150</s_discountprice><s_price> 50.150</s_price><sep/><s_nm> DERMA ANGEL ACNE PATCH SALICY</s_nm><s_num> 2.</s_num><s_price> LIC NIGHT ISI 12 q3</s_price><sep/><s_nm> X射藥</s_nm><s_unitprice> 41.000</s_unitprice><s_cnt> 1 x</s_cnt><s_discountprice> 36.900</s_discountprice><s_price> 36.900</s_price><sep/><s_nm> DERMA ANGEL ACNE PATCH SALICY</s_nm><s_num> LIC DAY ISI 12 q3</s_num><s_unitprice> 39.000</s_unitprice><s_cnt> 1 x</s_cnt><s_discountprice> 35.100</s_discountprice><s_price> 32.150</s_price></s_menu><s_sub_total><s_subtotal_price> 122.150</s_subtotal_price></s_sub_total><s_total><s_total_price> BISA TUKAR</s_total_price><s_total_etc> WARNA LIPS</s_total_etc></s_total>",
+  "parsed": {
+    "merchant_name": null,
+    "items": [
+      {
+        "name": "W/TLP: 0812 5483",
+        "quantity": 1.0,
+        "unit_price": null,
+        "total_price": 5511.0
+      },
+      {
+        "name": "WRI UV SHIELD ACNE CALM SPF 50",
+        "quantity": 1.0,
+        "unit_price": 59000.0,
+        "total_price": 50150.0
+      },
+      {
+        "name": "DERMA ANGEL ACNE PATCH SALICY",
+        "quantity": 1.0,
+        "unit_price": null,
+        "total_price": 123.0
+      },
+      {
+        "name": "X射藥",
+        "quantity": 1.0,
+        "unit_price": 41000.0,
+        "total_price": 36900.0
+      },
+      {
+        "name": "DERMA ANGEL ACNE PATCH SALICY",
+        "quantity": 1.0,
+        "unit_price": 39000.0,
+        "total_price": 32150.0
+      }
+    ],
+    "subtotal": 122150.0,
+    "charges": [],
+    "total": null
+  },
+  "run_summary": {
+    "total_runs": 3,
+    "successful_runs": 3,
+    "failed_runs": 0,
+    "success_rate": 1.0
+  },
+  "metrics": {
+    "parsed": true,
+    "n_gt_items": 3,
+    "n_pred_items": 5,
+    "item_precision": 0.6,
+    "item_recall": 1.0,
+    "item_f1": 0.7499999999999999,
+    "name_cer": 0.3428521484871599,
+    "qty_acc": 1.0,
+    "unit_price_acc": 0.6666666666666666,
+    "total_price_acc": 0.0,
+    "item_exact_rate": 0.0,
+    "subtotal_ok": true,
+    "charges_recall": 0.0,
+    "total_ok": false,
+    "consistent": false
+  }
+}

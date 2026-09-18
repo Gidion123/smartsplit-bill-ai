@@ -1,0 +1,108 @@
+{
+  "model": "Qwen-VL (Qwen3-VL-2B-Instruct)",
+  "receipt": "nota_04",
+  "error": null,
+  "raw_output": "```json\n{\n  \"merchant_name\": \"Indomaret\",\n  \"items\": [\n    {\n      \"name\": \"INDOMI GORENG SPC 80\",\n      \"quantity\": 2,\n      \"unit_price\": 2300,\n      \"total_price\": 4600\n    },\n    {\n      \"name\": \"SEDAAP MIE SOTO 75GR\",\n      \"quantity\": 1,\n      \"unit_price\": 2300,\n      \"total_price\": 2300\n    },\n    {\n      \"name\": \"INDOMI KARI AYAM 72G\",\n      \"quantity\": 2,\n      \"unit_price\": 2300,\n      \"total_price\": 4600\n    },\n    {\n      \"name\": \"INDOMI AYAM BHN 69G\",\n      \"quantity\": 1,\n      \"unit_price\": 2300,\n      \"total_price\": 2300\n    },\n    {\n      \"name\": \"SUKSEK ISI2 A.KCP129\",\n      \"quantity\": 1,\n      \"unit_price\": 3350,\n      \"total_price\": 3350\n    },\n    {\n      \"name\": \"INDOMIE GRG RICA 85G\",\n      \"quantity\": 1,\n      \"unit_price\": 2300,\n      \"total_price\": 2300\n    },\n    {\n      \"name\": \"SEDAAP MIE KARI SP75\",\n      \"quantity\": 1,\n      \"unit_price\": 2300,\n      \"total_price\": 2300\n    },\n    {\n      \"name\": \"SEDAAP MIE BASO SP77\",\n      \"quantity\": 1,\n      \"unit_price\": 2300,\n      \"total_price\": 2300\n    },\n    {\n      \"name\": \"INDOMIE GRG S.MTH 85\",\n      \"quantity\": 1,\n      \"unit_price\": 2300,\n      \"total_price\": 2300\n    },\n    {\n      \"name\": \"SEDAAP MI AY BW TL73\",\n      \"quantity\": 1,\n      \"unit_price\": 2300,\n      \"total_price\": 2300\n    },\n    {\n      \"name\": \"RINSO DET.MTC FRNT 3\",\n      \"quantity\": 1,\n      \"unit_price\": 93000,\n      \"total_price\": 93000\n    }\n  ],\n  \"subtotal\": 121650,\n  \"charges\": [\n    {\n      \"name\": \"PPN\",\n      \"amount\": 11059\n    }\n  ],\n  \"total\": 132709\n}\n```",
+  "parsed": {
+    "merchant_name": "Indomaret",
+    "items": [
+      {
+        "name": "INDOMI GORENG SPC 80",
+        "quantity": 2.0,
+        "unit_price": 2300.0,
+        "total_price": 4600.0
+      },
+      {
+        "name": "SEDAAP MIE SOTO 75GR",
+        "quantity": 1.0,
+        "unit_price": 2300.0,
+        "total_price": 2300.0
+      },
+      {
+        "name": "INDOMI KARI AYAM 72G",
+        "quantity": 2.0,
+        "unit_price": 2300.0,
+        "total_price": 4600.0
+      },
+      {
+        "name": "INDOMI AYAM BHN 69G",
+        "quantity": 1.0,
+        "unit_price": 2300.0,
+        "total_price": 2300.0
+      },
+      {
+        "name": "SUKSEK ISI2 A.KCP129",
+        "quantity": 1.0,
+        "unit_price": 3350.0,
+        "total_price": 3350.0
+      },
+      {
+        "name": "INDOMIE GRG RICA 85G",
+        "quantity": 1.0,
+        "unit_price": 2300.0,
+        "total_price": 2300.0
+      },
+      {
+        "name": "SEDAAP MIE KARI SP75",
+        "quantity": 1.0,
+        "unit_price": 2300.0,
+        "total_price": 2300.0
+      },
+      {
+        "name": "SEDAAP MIE BASO SP77",
+        "quantity": 1.0,
+        "unit_price": 2300.0,
+        "total_price": 2300.0
+      },
+      {
+        "name": "INDOMIE GRG S.MTH 85",
+        "quantity": 1.0,
+        "unit_price": 2300.0,
+        "total_price": 2300.0
+      },
+      {
+        "name": "SEDAAP MI AY BW TL73",
+        "quantity": 1.0,
+        "unit_price": 2300.0,
+        "total_price": 2300.0
+      },
+      {
+        "name": "RINSO DET.MTC FRNT 3",
+        "quantity": 1.0,
+        "unit_price": 93000.0,
+        "total_price": 93000.0
+      }
+    ],
+    "subtotal": 121650.0,
+    "charges": [
+      {
+        "name": "PPN",
+        "amount": 11059.0
+      }
+    ],
+    "total": 132709.0
+  },
+  "run_summary": {
+    "total_runs": 3,
+    "successful_runs": 3,
+    "failed_runs": 0,
+    "success_rate": 1.0
+  },
+  "metrics": {
+    "parsed": true,
+    "n_gt_items": 11,
+    "n_pred_items": 11,
+    "item_precision": 1.0,
+    "item_recall": 1.0,
+    "item_f1": 1.0,
+    "name_cer": 0.022727272727272728,
+    "qty_acc": 1.0,
+    "unit_price_acc": 1.0,
+    "total_price_acc": 1.0,
+    "item_exact_rate": 1.0,
+    "subtotal_ok": true,
+    "charges_recall": 0.0,
+    "total_ok": false,
+    "consistent": true
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "model": "Donut (CORD-v2)",
+  "receipt": "nota_12",
+  "error": null,
+  "raw_output": "<s_menu><s_nm> KUONA Corret. ATIM</s_nm><s_unitprice> Pangliina Aim</s_nm><s_unitprice> Pakistan</s_unitprice><s_cnt> Jl</s_cnt><s_price> Aim</s_price><sep/><s_nm> Kota Pontanak Kalimenton Barat</s_nm><s_unitprice> C3/01亮09則<s_nm> No Ntta</s_nm><s_unitprice> 19 Stick 25</s_unitprice><s_cnt> 1</s_cnt><s_price> 19:000</s_price><sep/><s_nm> Omier</s_nm><s_unitprice> NADIYAH ROONA</s_nm><s_unitprice> NADIYAH ROONA</s_nm><s_unitprice> NADIYAH</s_nm><s_unitprice> 18,000</s_unitprice><s_cnt> 1x</s_cnt><s_price> 18,000</s_price><sep/><s_nm> +LAGE</s_nm><s_unitprice> 82,000</s_unitprice><s_cnt> 1x</s_cnt><s_price> 2,000</s_price><sep/><s_nm> AIR MENDAL</s_nm><s_unitprice> 8,000</s_unitprice><s_cnt> 1x</s_cnt><s_price> 8,000</s_price></s_menu><s_sub_total><s_subtotal_price> 28,000</s_subtotal_price></s_sub_total><s_total><s_total_price> 28,000</s_total_price><s_cashprice> 28,000</s_cashprice><s_changeprice> -</s_changeprice><s_menuqty_cnt> 1x</s_menuqty_cnt></s_total>",
+  "parsed": {
+    "merchant_name": null,
+    "items": [
+      {
+        "name": "Kota Pontanak Kalimenton Barat",
+        "quantity": 1.0,
+        "unit_price": null,
+        "total_price": 19000.0
+      },
+      {
+        "name": "Omier",
+        "quantity": 1.0,
+        "unit_price": null,
+        "total_price": 18000.0
+      },
+      {
+        "name": "+LAGE",
+        "quantity": 1.0,
+        "unit_price": 82000.0,
+        "total_price": 2000.0
+      },
+      {
+        "name": "AIR MENDAL",
+        "quantity": 1.0,
+        "unit_price": 8000.0,
+        "total_price": 8000.0
+      }
+    ],
+    "subtotal": 28000.0,
+    "charges": [],
+    "total": 28000.0
+  },
+  "run_summary": {
+    "total_runs": 3,
+    "successful_runs": 3,
+    "failed_runs": 0,
+    "success_rate": 1.0
+  },
+  "metrics": {
+    "parsed": true,
+    "n_gt_items": 3,
+    "n_pred_items": 4,
+    "item_precision": 0.75,
+    "item_recall": 1.0,
+    "item_f1": 0.8571428571428571,
+    "name_cer": 0.4575757575757576,
+    "qty_acc": 1.0,
+    "unit_price_acc": 0.3333333333333333,
+    "total_price_acc": 1.0,
+    "item_exact_rate": 0.0,
+    "subtotal_ok": true,
+    "charges_recall": 1.0,
+    "total_ok": true,
+    "consistent": false
+  }
+}

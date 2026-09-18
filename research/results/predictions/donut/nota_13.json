@@ -1,0 +1,79 @@
+{
+  "model": "Donut (CORD-v2)",
+  "receipt": "nota_13",
+  "error": null,
+  "raw_output": "<s_menu><s_nm> Ayam Angur Karimata</s_nm><s_price> Karimata</s_nm><s_price> Bangkong,</s_price><sep/><s_nm> Pontanak Kota, Pontanak,</s_nm><sep/><s_nm> Kali Barat, Kallmantan,</s_nm><sep/> 78244 Indonesia</s_nm><s_price> 7828</s_price><sep/><s_nm> No Nota C3/dut/251009/0048</s_nm><s_price> 25 12:00</s_price><sep/><s_nm> Waku</s_nm><s_price> 09 Okt</s_nm><s_price> 25:20</s_price><sep/><s_nm> Order* KASIR PACI</s_nm><s_price> Kasirc : KASIR PACI</s_nm><s_price> PACI</s_price><sep/><s_nm> :Jenis Order Free Table</s_nm><s_price> RAMB Order : 8</s_nm><s_price> 8</s_price><sep/><s_nm> Nomor Meja Free Table ( )</s_nm><s_cnt> 8</s_cnt><s_price> (1)</s_price><sep/><s_nm> Ayam Ancur + Nasi</s_nm><s_cnt> 1</s_cnt><s_price> 15,000</s_price><sep/><s_nm> L3</s_nm><s_cnt> 1</s_cnt><s_price> 22,000</s_price><sep/><s_nm> Ayam Ancur Jumbo+ Nasi</s_nm><s_cnt> 1</s_cnt><s_price> + Sedang</s_nm><s_cnt> 1</s_cnt><s_price> 12,000</s_price><sep/><s_nm> Kuli Crispy</s_nm><s_cnt> ></s_cnt><s_price> 2,000</s_price><sep/><s_nm> Es Tawar</s_nm><s_cnt> 1</s_cnt><s_price> 2,000</s_price></s_menu><s_sub_total><s_subtotal_price> 51,000</s_subtotal_price></s_sub_total><s_total><s_total_price> 51,000</s_total_price><s_emoneyprice> 51,000</s_emoneyprice></s_total>",
+  "parsed": {
+    "merchant_name": null,
+    "items": [
+      {
+        "name": "No Nota C3/dut/251009/0048",
+        "quantity": 1.0,
+        "unit_price": null,
+        "total_price": 251200.0
+      },
+      {
+        "name": "Nomor Meja Free Table ( )",
+        "quantity": 8.0,
+        "unit_price": null,
+        "total_price": -1.0
+      },
+      {
+        "name": "Ayam Ancur + Nasi",
+        "quantity": 1.0,
+        "unit_price": null,
+        "total_price": 15000.0
+      },
+      {
+        "name": "L3",
+        "quantity": 1.0,
+        "unit_price": null,
+        "total_price": 22000.0
+      },
+      {
+        "name": "Ayam Ancur Jumbo+ Nasi",
+        "quantity": 1.0,
+        "unit_price": null,
+        "total_price": 1.0
+      },
+      {
+        "name": "Kuli Crispy",
+        "quantity": 1.0,
+        "unit_price": null,
+        "total_price": 2000.0
+      },
+      {
+        "name": "Es Tawar",
+        "quantity": 1.0,
+        "unit_price": null,
+        "total_price": 2000.0
+      }
+    ],
+    "subtotal": 51000.0,
+    "charges": [],
+    "total": 51000.0
+  },
+  "run_summary": {
+    "total_runs": 3,
+    "successful_runs": 3,
+    "failed_runs": 0,
+    "success_rate": 1.0
+  },
+  "metrics": {
+    "parsed": true,
+    "n_gt_items": 4,
+    "n_pred_items": 7,
+    "item_precision": 0.5714285714285714,
+    "item_recall": 1.0,
+    "item_f1": 0.7272727272727273,
+    "name_cer": 0.020833333333333332,
+    "qty_acc": 1.0,
+    "unit_price_acc": 0.0,
+    "total_price_acc": 0.5,
+    "item_exact_rate": 0.5,
+    "subtotal_ok": true,
+    "charges_recall": 1.0,
+    "total_ok": true,
+    "consistent": false
+  }
+}

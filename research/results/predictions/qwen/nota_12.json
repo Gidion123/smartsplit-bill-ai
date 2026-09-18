@@ -1,0 +1,54 @@
+{
+  "model": "Qwen-VL (Qwen3-VL-2B-Instruct)",
+  "receipt": "nota_12",
+  "error": null,
+  "raw_output": "```json\n{\n  \"merchant_name\": \"ROUNA COFFEE P.AIM\",\n  \"items\": [\n    {\n      \"name\": \"MILK LATTE\",\n      \"quantity\": 1,\n      \"unit_price\": 18000,\n      \"total_price\": 18000\n    },\n    {\n      \"name\": \"AIR MINERAL\",\n      \"quantity\": 1,\n      \"unit_price\": 8000,\n      \"total_price\": 8000\n    }\n  ],\n  \"subtotal\": 26000,\n  \"charges\": [\n    {\n      \"name\": \"Transfer\",\n      \"amount\": 28000\n    }\n  ],\n  \"total\": 28000\n}\n```",
+  "parsed": {
+    "merchant_name": "ROUNA COFFEE P.AIM",
+    "items": [
+      {
+        "name": "MILK LATTE",
+        "quantity": 1.0,
+        "unit_price": 18000.0,
+        "total_price": 18000.0
+      },
+      {
+        "name": "AIR MINERAL",
+        "quantity": 1.0,
+        "unit_price": 8000.0,
+        "total_price": 8000.0
+      }
+    ],
+    "subtotal": 26000.0,
+    "charges": [
+      {
+        "name": "Transfer",
+        "amount": 28000.0
+      }
+    ],
+    "total": 28000.0
+  },
+  "run_summary": {
+    "total_runs": 3,
+    "successful_runs": 3,
+    "failed_runs": 0,
+    "success_rate": 1.0
+  },
+  "metrics": {
+    "parsed": true,
+    "n_gt_items": 3,
+    "n_pred_items": 2,
+    "item_precision": 1.0,
+    "item_recall": 0.6666666666666666,
+    "item_f1": 0.8,
+    "name_cer": 0.05,
+    "qty_acc": 0.6666666666666666,
+    "unit_price_acc": 0.6666666666666666,
+    "total_price_acc": 0.6666666666666666,
+    "item_exact_rate": 0.6666666666666666,
+    "subtotal_ok": false,
+    "charges_recall": 1.0,
+    "total_ok": true,
+    "consistent": false
+  }
+}

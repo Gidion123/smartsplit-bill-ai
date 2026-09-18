@@ -1,0 +1,169 @@
+{
+  "model": "DeepSeek (deepseek-flash)",
+  "receipt": "nota_06",
+  "error": null,
+  "raw_output": "{\"merchant_name\": \"ROCKAN ADI\", \"items\": [{\"name\": \"MAMA SUKA REFILL 2\", \"quantity\": 1, \"unit_price\": 10800, \"total_price\": 10800}, {\"name\": \"NICE PUFF CHOCOLATE\", \"quantity\": 1, \"unit_price\": 22000, \"total_price\": 22000}, {\"name\": \"AZZURA GLOW SPF 40ML\", \"quantity\": 1, \"unit_price\": 28000, \"total_price\": 28000}, {\"name\": \"NIVEA BODY SERUM 180ML\", \"quantity\": 1, \"unit_price\": 21200, \"total_price\": 21200}, {\"name\": \"ACNE CLEANSER 100GR\", \"quantity\": 1, \"unit_price\": 9700, \"total_price\": 9700}, {\"name\": \"NIVEA FACE MASK 1S\", \"quantity\": 1, \"unit_price\": 500, \"total_price\": 500}, {\"name\": \"SUNSCREEN SPF 50 PA\", \"quantity\": 1, \"unit_price\": 11400, \"total_price\": 11400}, {\"name\": \"NIVEA LIP HAND CREAM\", \"quantity\": 1, \"unit_price\": 9000, \"total_price\": 9000}, {\"name\": \"DANIEL MOIST 100ML\", \"quantity\": 1, \"unit_price\": 20000, \"total_price\": 20000}, {\"name\": \"BEST SELLER DEEP CLEAN\", \"quantity\": 1, \"unit_price\": 8000, \"total_price\": 8000}, {\"name\": \"STELLA BY NIGHT 10ML\", \"quantity\": 1, \"unit_price\": 17500, \"total_price\": 17500}, {\"name\": \"SOSOFT DEEP CLEAN\", \"quantity\": 1, \"unit_price\": 11500, \"total_price\": 11500}, {\"name\": \"NIVEA PH BODY SERUM 100ML\", \"quantity\": 1, \"unit_price\": 12800, \"total_price\": 12800}, {\"name\": \"MISTER POMADE 80ML\", \"quantity\": 1, \"unit_price\": 21000, \"total_price\": 21000}, {\"name\": \"LA TULIPE 100ML\", \"quantity\": 1, \"unit_price\": 12800, \"total_price\": 12800}, {\"name\": \"LA TULIPE 50ML\", \"quantity\": 1, \"unit_price\": 9000, \"total_price\": 9000}, {\"name\": \"DANIEL MAYANG 50ML\", \"quantity\": 1, \"unit_price\": 12800, \"total_price\": 12800}, {\"name\": \"BEST SELLER SUNSCREEN\", \"quantity\": 1, \"unit_price\": 12500, \"total_price\": 12500}, {\"name\": \"LA TULIPE HAND & BODY 100GR\", \"quantity\": 1, \"unit_price\": 18600, \"total_price\": 18600}, {\"name\": \"NABATI 11.5GR\", \"quantity\": 1, \"unit_price\": 22000, \"total_price\": 22000}, {\"name\": \"MASKER 1PC\", \"quantity\": 1, \"unit_price\": 11500, \"total_price\": 11500}, {\"name\": \"DANIEL MAYANG\", \"quantity\": 1, \"unit_price\": 17000, \"total_price\": 17000}], \"subtotal\": 293600, \"charges\": [], \"total\": 293600}",
+  "parsed": {
+    "merchant_name": "ROCKAN ADI",
+    "items": [
+      {
+        "name": "MAMA SUKA REFILL 2",
+        "quantity": 1.0,
+        "unit_price": 10800.0,
+        "total_price": 10800.0
+      },
+      {
+        "name": "NICE PUFF CHOCOLATE",
+        "quantity": 1.0,
+        "unit_price": 22000.0,
+        "total_price": 22000.0
+      },
+      {
+        "name": "AZZURA GLOW SPF 40ML",
+        "quantity": 1.0,
+        "unit_price": 28000.0,
+        "total_price": 28000.0
+      },
+      {
+        "name": "NIVEA BODY SERUM 180ML",
+        "quantity": 1.0,
+        "unit_price": 21200.0,
+        "total_price": 21200.0
+      },
+      {
+        "name": "ACNE CLEANSER 100GR",
+        "quantity": 1.0,
+        "unit_price": 9700.0,
+        "total_price": 9700.0
+      },
+      {
+        "name": "NIVEA FACE MASK 1S",
+        "quantity": 1.0,
+        "unit_price": 500.0,
+        "total_price": 500.0
+      },
+      {
+        "name": "SUNSCREEN SPF 50 PA",
+        "quantity": 1.0,
+        "unit_price": 11400.0,
+        "total_price": 11400.0
+      },
+      {
+        "name": "NIVEA LIP HAND CREAM",
+        "quantity": 1.0,
+        "unit_price": 9000.0,
+        "total_price": 9000.0
+      },
+      {
+        "name": "DANIEL MOIST 100ML",
+        "quantity": 1.0,
+        "unit_price": 20000.0,
+        "total_price": 20000.0
+      },
+      {
+        "name": "BEST SELLER DEEP CLEAN",
+        "quantity": 1.0,
+        "unit_price": 8000.0,
+        "total_price": 8000.0
+      },
+      {
+        "name": "STELLA BY NIGHT 10ML",
+        "quantity": 1.0,
+        "unit_price": 17500.0,
+        "total_price": 17500.0
+      },
+      {
+        "name": "SOSOFT DEEP CLEAN",
+        "quantity": 1.0,
+        "unit_price": 11500.0,
+        "total_price": 11500.0
+      },
+      {
+        "name": "NIVEA PH BODY SERUM 100ML",
+        "quantity": 1.0,
+        "unit_price": 12800.0,
+        "total_price": 12800.0
+      },
+      {
+        "name": "MISTER POMADE 80ML",
+        "quantity": 1.0,
+        "unit_price": 21000.0,
+        "total_price": 21000.0
+      },
+      {
+        "name": "LA TULIPE 100ML",
+        "quantity": 1.0,
+        "unit_price": 12800.0,
+        "total_price": 12800.0
+      },
+      {
+        "name": "LA TULIPE 50ML",
+        "quantity": 1.0,
+        "unit_price": 9000.0,
+        "total_price": 9000.0
+      },
+      {
+        "name": "DANIEL MAYANG 50ML",
+        "quantity": 1.0,
+        "unit_price": 12800.0,
+        "total_price": 12800.0
+      },
+      {
+        "name": "BEST SELLER SUNSCREEN",
+        "quantity": 1.0,
+        "unit_price": 12500.0,
+        "total_price": 12500.0
+      },
+      {
+        "name": "LA TULIPE HAND & BODY 100GR",
+        "quantity": 1.0,
+        "unit_price": 18600.0,
+        "total_price": 18600.0
+      },
+      {
+        "name": "NABATI 11.5GR",
+        "quantity": 1.0,
+        "unit_price": 22000.0,
+        "total_price": 22000.0
+      },
+      {
+        "name": "MASKER 1PC",
+        "quantity": 1.0,
+        "unit_price": 11500.0,
+        "total_price": 11500.0
+      },
+      {
+        "name": "DANIEL MAYANG",
+        "quantity": 1.0,
+        "unit_price": 17000.0,
+        "total_price": 17000.0
+      }
+    ],
+    "subtotal": 293600.0,
+    "charges": [],
+    "total": 293600.0
+  },
+  "run_summary": {
+    "total_runs": 1,
+    "successful_runs": 1,
+    "failed_runs": 0,
+    "success_rate": 1.0
+  },
+  "metrics": {
+    "parsed": true,
+    "n_gt_items": 22,
+    "n_pred_items": 22,
+    "item_precision": 0.18181818181818182,
+    "item_recall": 0.18181818181818182,
+    "item_f1": 0.18181818181818182,
+    "name_cer": 0.5758145363408521,
+    "qty_acc": 0.18181818181818182,
+    "unit_price_acc": 0.045454545454545456,
+    "total_price_acc": 0.045454545454545456,
+    "item_exact_rate": 0.0,
+    "subtotal_ok": false,
+    "charges_recall": 0.0,
+    "total_ok": true,
+    "consistent": false
+  }
+}

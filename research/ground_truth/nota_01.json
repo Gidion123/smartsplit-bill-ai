@@ -1,0 +1,14 @@
+{
+  "merchant_name": "ALFAMART STA. KARET",
+  "items": [
+    {
+      "name": "SARI ROTI SW CK",
+      "quantity": 1,
+      "unit_price": 4500,
+      "total_price": 4500
+    }
+  ],
+  "subtotal": 4500,
+  "charges": [],
+  "total": 4500
+}

@@ -1,0 +1,73 @@
+{
+  "model": "DeepSeek (deepseek-flash)",
+  "receipt": "nota_08",
+  "error": null,
+  "raw_output": "{\"merchant_name\": \"Hotways Chicken Pontianak\", \"items\": [{\"name\": \"HappyDeals C\", \"quantity\": 1, \"unit_price\": 29000, \"total_price\": 29000}, {\"name\": \"Paha Bawah Hot Gulai\", \"quantity\": 1, \"unit_price\": 0, \"total_price\": 0}, {\"name\": \"Slow (Level 1)\", \"quantity\": 1, \"unit_price\": 0, \"total_price\": 0}, {\"name\": \"Nasi\", \"quantity\": 1, \"unit_price\": 0, \"total_price\": 0}, {\"name\": \"Add Booster\", \"quantity\": 1, \"unit_price\": 0, \"total_price\": 0}, {\"name\": \"Big Iced Tea\", \"quantity\": 1, \"unit_price\": 0, \"total_price\": 0}], \"subtotal\": 29000, \"charges\": [], \"total\": 29000}",
+  "parsed": {
+    "merchant_name": "Hotways Chicken Pontianak",
+    "items": [
+      {
+        "name": "HappyDeals C",
+        "quantity": 1.0,
+        "unit_price": 29000.0,
+        "total_price": 29000.0
+      },
+      {
+        "name": "Paha Bawah Hot Gulai",
+        "quantity": 1.0,
+        "unit_price": 0.0,
+        "total_price": 0.0
+      },
+      {
+        "name": "Slow (Level 1)",
+        "quantity": 1.0,
+        "unit_price": 0.0,
+        "total_price": 0.0
+      },
+      {
+        "name": "Nasi",
+        "quantity": 1.0,
+        "unit_price": 0.0,
+        "total_price": 0.0
+      },
+      {
+        "name": "Add Booster",
+        "quantity": 1.0,
+        "unit_price": 0.0,
+        "total_price": 0.0
+      },
+      {
+        "name": "Big Iced Tea",
+        "quantity": 1.0,
+        "unit_price": 0.0,
+        "total_price": 0.0
+      }
+    ],
+    "subtotal": 29000.0,
+    "charges": [],
+    "total": 29000.0
+  },
+  "run_summary": {
+    "total_runs": 1,
+    "successful_runs": 1,
+    "failed_runs": 0,
+    "success_rate": 1.0
+  },
+  "metrics": {
+    "parsed": true,
+    "n_gt_items": 1,
+    "n_pred_items": 6,
+    "item_precision": 0.16666666666666666,
+    "item_recall": 1.0,
+    "item_f1": 0.2857142857142857,
+    "name_cer": 0.0,
+    "qty_acc": 1.0,
+    "unit_price_acc": 1.0,
+    "total_price_acc": 1.0,
+    "item_exact_rate": 1.0,
+    "subtotal_ok": false,
+    "charges_recall": 1.0,
+    "total_ok": true,
+    "consistent": true
+  }
+}

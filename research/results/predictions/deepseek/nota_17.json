@@ -1,0 +1,58 @@
+{
+  "model": "DeepSeek (deepseek-flash)",
+  "receipt": "nota_17",
+  "error": null,
+  "raw_output": "{\"merchant_name\":\"SUMOSmokes Merdeka\",\"items\":[{\"name\":\"Matcha Green Tea\",\"quantity\":1,\"unit_price\":18181,\"total_price\":18181},{\"name\":\"Chikin Kari Mentai Roll\",\"quantity\":1,\"unit_price\":25454,\"total_price\":25454}],\"subtotal\":43635,\"charges\":[{\"name\":\"PB1 (10%)\",\"amount\":4364},{\"name\":\"Rounding Amount\",\"amount\":2}],\"total\":48000}",
+  "parsed": {
+    "merchant_name": "SUMOSmokes Merdeka",
+    "items": [
+      {
+        "name": "Matcha Green Tea",
+        "quantity": 1.0,
+        "unit_price": 18181.0,
+        "total_price": 18181.0
+      },
+      {
+        "name": "Chikin Kari Mentai Roll",
+        "quantity": 1.0,
+        "unit_price": 25454.0,
+        "total_price": 25454.0
+      }
+    ],
+    "subtotal": 43635.0,
+    "charges": [
+      {
+        "name": "PB1 (10%)",
+        "amount": 4364.0
+      },
+      {
+        "name": "Rounding Amount",
+        "amount": 2.0
+      }
+    ],
+    "total": 48000.0
+  },
+  "run_summary": {
+    "total_runs": 1,
+    "successful_runs": 1,
+    "failed_runs": 0,
+    "success_rate": 1.0
+  },
+  "metrics": {
+    "parsed": true,
+    "n_gt_items": 2,
+    "n_pred_items": 2,
+    "item_precision": 1.0,
+    "item_recall": 1.0,
+    "item_f1": 1.0,
+    "name_cer": 0.1,
+    "qty_acc": 1.0,
+    "unit_price_acc": 1.0,
+    "total_price_acc": 1.0,
+    "item_exact_rate": 0.5,
+    "subtotal_ok": true,
+    "charges_recall": 1.0,
+    "total_ok": true,
+    "consistent": true
+  }
+}

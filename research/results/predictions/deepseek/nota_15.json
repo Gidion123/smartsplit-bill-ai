@@ -1,0 +1,61 @@
+{
+  "model": "DeepSeek (deepseek-flash)",
+  "receipt": "nota_15",
+  "error": null,
+  "raw_output": "{\"merchant_name\": \"Ayam Ancur\", \"items\": [{\"name\": \"Ayam Ancur Jumbo + Nasi + 1 Sedang\", \"quantity\": 1, \"unit_price\": null, \"total_price\": 22000}, {\"name\": \"Kulit Crispy > sdg\", \"quantity\": 1, \"unit_price\": null, \"total_price\": 12000}, {\"name\": \"Ayam Ancur + Nasi > LV 4\", \"quantity\": 1, \"unit_price\": null, \"total_price\": 15000}, {\"name\": \"Es Tawar\", \"quantity\": 1, \"unit_price\": null, \"total_price\": 2000}], \"subtotal\": 51000, \"charges\": [], \"total\": 51000}",
+  "parsed": {
+    "merchant_name": "Ayam Ancur",
+    "items": [
+      {
+        "name": "Ayam Ancur Jumbo + Nasi + 1 Sedang",
+        "quantity": 1.0,
+        "unit_price": null,
+        "total_price": 22000.0
+      },
+      {
+        "name": "Kulit Crispy > sdg",
+        "quantity": 1.0,
+        "unit_price": null,
+        "total_price": 12000.0
+      },
+      {
+        "name": "Ayam Ancur + Nasi > LV 4",
+        "quantity": 1.0,
+        "unit_price": null,
+        "total_price": 15000.0
+      },
+      {
+        "name": "Es Tawar",
+        "quantity": 1.0,
+        "unit_price": null,
+        "total_price": 2000.0
+      }
+    ],
+    "subtotal": 51000.0,
+    "charges": [],
+    "total": 51000.0
+  },
+  "run_summary": {
+    "total_runs": 1,
+    "successful_runs": 1,
+    "failed_runs": 0,
+    "success_rate": 1.0
+  },
+  "metrics": {
+    "parsed": true,
+    "n_gt_items": 4,
+    "n_pred_items": 4,
+    "item_precision": 1.0,
+    "item_recall": 1.0,
+    "item_f1": 1.0,
+    "name_cer": 0.2738095238095238,
+    "qty_acc": 1.0,
+    "unit_price_acc": 0.0,
+    "total_price_acc": 1.0,
+    "item_exact_rate": 0.25,
+    "subtotal_ok": true,
+    "charges_recall": 1.0,
+    "total_ok": true,
+    "consistent": true
+  }
+}

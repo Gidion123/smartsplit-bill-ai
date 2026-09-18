@@ -1,0 +1,54 @@
+{
+  "model": "DeepSeek (deepseek-flash)",
+  "receipt": "nota_02",
+  "error": null,
+  "raw_output": "{\"merchant_name\": \"CV. RIPUTRA JAYA\", \"items\": [{\"name\": \"SARI ROTI KRIM CK\", \"quantity\": 1, \"unit_price\": 3500, \"total_price\": 3500}, {\"name\": \"OVALTINE 3IN1 12X\", \"quantity\": 1, \"unit_price\": 28500, \"total_price\": 28500}], \"subtotal\": 32000, \"charges\": [{\"name\": \"PPN\", \"amount\": 2909}], \"total\": 34909}",
+  "parsed": {
+    "merchant_name": "CV. RIPUTRA JAYA",
+    "items": [
+      {
+        "name": "SARI ROTI KRIM CK",
+        "quantity": 1.0,
+        "unit_price": 3500.0,
+        "total_price": 3500.0
+      },
+      {
+        "name": "OVALTINE 3IN1 12X",
+        "quantity": 1.0,
+        "unit_price": 28500.0,
+        "total_price": 28500.0
+      }
+    ],
+    "subtotal": 32000.0,
+    "charges": [
+      {
+        "name": "PPN",
+        "amount": 2909.0
+      }
+    ],
+    "total": 34909.0
+  },
+  "run_summary": {
+    "total_runs": 1,
+    "successful_runs": 1,
+    "failed_runs": 0,
+    "success_rate": 1.0
+  },
+  "metrics": {
+    "parsed": true,
+    "n_gt_items": 2,
+    "n_pred_items": 2,
+    "item_precision": 1.0,
+    "item_recall": 1.0,
+    "item_f1": 1.0,
+    "name_cer": 0.03125,
+    "qty_acc": 1.0,
+    "unit_price_acc": 1.0,
+    "total_price_acc": 1.0,
+    "item_exact_rate": 1.0,
+    "subtotal_ok": true,
+    "charges_recall": 1.0,
+    "total_ok": false,
+    "consistent": true
+  }
+}

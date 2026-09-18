@@ -1,0 +1,54 @@
+{
+  "model": "Qwen-VL (Qwen3-VL-2B-Instruct)",
+  "receipt": "nota_14",
+  "error": null,
+  "raw_output": "```json\n{\n  \"merchant_name\": \"Lokale\",\n  \"items\": [\n    {\n      \"name\": \"bola\",\n      \"quantity\": 1,\n      \"unit_price\": 16000,\n      \"total_price\": 16000\n    },\n    {\n      \"name\": \"kopi\",\n      \"quantity\": 1,\n      \"unit_price\": 16000,\n      \"total_price\": 16000\n    }\n  ],\n  \"subtotal\": 32000,\n  \"charges\": [\n    {\n      \"name\": \"Pajak 10%\",\n      \"amount\": 3200\n    }\n  ],\n  \"total\": 35200\n}\n```",
+  "parsed": {
+    "merchant_name": "Lokale",
+    "items": [
+      {
+        "name": "bola",
+        "quantity": 1.0,
+        "unit_price": 16000.0,
+        "total_price": 16000.0
+      },
+      {
+        "name": "kopi",
+        "quantity": 1.0,
+        "unit_price": 16000.0,
+        "total_price": 16000.0
+      }
+    ],
+    "subtotal": 32000.0,
+    "charges": [
+      {
+        "name": "Pajak 10%",
+        "amount": 3200.0
+      }
+    ],
+    "total": 35200.0
+  },
+  "run_summary": {
+    "total_runs": 3,
+    "successful_runs": 2,
+    "failed_runs": 1,
+    "success_rate": 0.6666666666666666
+  },
+  "metrics": {
+    "parsed": true,
+    "n_gt_items": 1,
+    "n_pred_items": 2,
+    "item_precision": 0.5,
+    "item_recall": 1.0,
+    "item_f1": 0.6666666666666666,
+    "name_cer": 0.6363636363636364,
+    "qty_acc": 1.0,
+    "unit_price_acc": 1.0,
+    "total_price_acc": 1.0,
+    "item_exact_rate": 0.0,
+    "subtotal_ok": false,
+    "charges_recall": 0.0,
+    "total_ok": false,
+    "consistent": true
+  }
+}

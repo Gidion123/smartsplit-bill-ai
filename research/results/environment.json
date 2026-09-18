@@ -1,0 +1,35 @@
+{
+  "machine": {
+    "platform": "macOS-26.5.2-arm64-arm-64bit",
+    "processor": "arm",
+    "python": "3.11.16",
+    "cpu_count": 12,
+    "ram_gb": 32.0,
+    "torch": "2.9.0",
+    "cuda": false,
+    "mps": true
+  },
+  "models": [
+    {
+      "model": "DeepSeek (deepseek-flash)",
+      "key": "deepseek",
+      "load_seconds": 0.0,
+      "memory_mb_after_load": 0.0,
+      "device": "cloud API"
+    },
+    {
+      "model": "Donut (CORD-v2)",
+      "key": "donut",
+      "load_seconds": 6.63,
+      "memory_mb_after_load": 480.8,
+      "device": "mps"
+    },
+    {
+      "model": "Qwen-VL (Qwen3-VL-2B-Instruct)",
+      "key": "qwen",
+      "load_seconds": 10.83,
+      "memory_mb_after_load": -1841.1,
+      "device": "mps"
+    }
+  ]
+}

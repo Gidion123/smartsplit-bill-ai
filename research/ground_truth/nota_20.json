@@ -1,0 +1,43 @@
+{
+  "merchant_name": "Bebek Begajul",
+  "items": [
+    {
+      "name": "Ayam Bakar Rica",
+      "quantity": 1,
+      "unit_price": 22210,
+      "total_price": 22210
+    },
+    {
+      "name": "Paket R",
+      "quantity": 1,
+      "unit_price": 8000,
+      "total_price": 8000
+    },
+    {
+      "name": "Teh Manis",
+      "quantity": 1,
+      "unit_price": 6000,
+      "total_price": 6000
+    },
+    {
+      "name": "Paket Sop Iga",
+      "quantity": 1,
+      "unit_price": 36000,
+      "total_price": 36000
+    },
+    {
+      "name": "Koin Parkir Motor",
+      "quantity": 1,
+      "unit_price": 2000,
+      "total_price": 2000
+    }
+  ],
+  "subtotal": 74210,
+  "charges": [
+    {
+      "name": "Pembulatan",
+      "amount": -10
+    }
+  ],
+  "total": 74200
+}

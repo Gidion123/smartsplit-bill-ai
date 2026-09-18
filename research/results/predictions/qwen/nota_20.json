@@ -1,0 +1,72 @@
+{
+  "model": "Qwen-VL (Qwen3-VL-2B-Instruct)",
+  "receipt": "nota_20",
+  "error": null,
+  "raw_output": "```json\n{\n  \"merchant_name\": \"Bebek Bocogang\",\n  \"items\": [\n    {\n      \"name\": \"Ayam Bakar Rica\",\n      \"quantity\": 1,\n      \"unit_price\": 22100,\n      \"total_price\": 22100\n    },\n    {\n      \"name\": \"Paket B\",\n      \"quantity\": 1,\n      \"unit_price\": 8000,\n      \"total_price\": 8000\n    },\n    {\n      \"name\": \"Teh Manis\",\n      \"quantity\": 1,\n      \"unit_price\": 6000,\n      \"total_price\": 6000\n    },\n    {\n      \"name\": \"Paket Sop Iga\",\n      \"quantity\": 1,\n      \"unit_price\": 36000,\n      \"total_price\": 36000\n    },\n    {\n      \"name\": \"Koin Parkir Motor\",\n      \"quantity\": 1,\n      \"unit_price\": 2000,\n      \"total_price\": 2000\n    }\n  ],\n  \"subtotal\": 74210,\n  \"charges\": [\n    {\n      \"name\": \"Diskon\",\n      \"amount\": 0\n    },\n    {\n      \"name\": \"Pembulatan\",\n      \"amount\": -10\n    }\n  ],\n  \"total\": 74200\n}\n```",
+  "parsed": {
+    "merchant_name": "Bebek Bocogang",
+    "items": [
+      {
+        "name": "Ayam Bakar Rica",
+        "quantity": 1.0,
+        "unit_price": 22100.0,
+        "total_price": 22100.0
+      },
+      {
+        "name": "Paket B",
+        "quantity": 1.0,
+        "unit_price": 8000.0,
+        "total_price": 8000.0
+      },
+      {
+        "name": "Teh Manis",
+        "quantity": 1.0,
+        "unit_price": 6000.0,
+        "total_price": 6000.0
+      },
+      {
+        "name": "Paket Sop Iga",
+        "quantity": 1.0,
+        "unit_price": 36000.0,
+        "total_price": 36000.0
+      },
+      {
+        "name": "Koin Parkir Motor",
+        "quantity": 1.0,
+        "unit_price": 2000.0,
+        "total_price": 2000.0
+      }
+    ],
+    "subtotal": 74210.0,
+    "charges": [
+      {
+        "name": "Pembulatan",
+        "amount": -10.0
+      }
+    ],
+    "total": 74200.0
+  },
+  "run_summary": {
+    "total_runs": 3,
+    "successful_runs": 3,
+    "failed_runs": 0,
+    "success_rate": 1.0
+  },
+  "metrics": {
+    "parsed": true,
+    "n_gt_items": 5,
+    "n_pred_items": 5,
+    "item_precision": 1.0,
+    "item_recall": 1.0,
+    "item_f1": 1.0,
+    "name_cer": 0.02857142857142857,
+    "qty_acc": 1.0,
+    "unit_price_acc": 0.8,
+    "total_price_acc": 0.8,
+    "item_exact_rate": 0.6,
+    "subtotal_ok": true,
+    "charges_recall": 1.0,
+    "total_ok": true,
+    "consistent": false
+  }
+}

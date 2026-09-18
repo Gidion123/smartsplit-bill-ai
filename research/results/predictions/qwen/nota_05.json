@@ -1,0 +1,60 @@
+{
+  "model": "Qwen-VL (Qwen3-VL-2B-Instruct)",
+  "receipt": "nota_05",
+  "error": null,
+  "raw_output": "```json\n{\n  \"merchant_name\": \"BEE COSMETICS\",\n  \"items\": [\n    {\n      \"name\": \"WRH UV SHIELD ACNE CALM SPF50 (BSR) 40ML\",\n      \"quantity\": 1,\n      \"unit_price\": 59000,\n      \"total_price\": 59000\n    },\n    {\n      \"name\": \"DERMA ANGEL ACNE PATCH SALICYLIC NIGHT ISI 12 q3\",\n      \"quantity\": 1,\n      \"unit_price\": 41000,\n      \"total_price\": 41000\n    },\n    {\n      \"name\": \"DERMA ANGEL ACNE PATCH SALICYLIC DAY ISI 12 q3\",\n      \"quantity\": 1,\n      \"unit_price\": 39000,\n      \"total_price\": 39000\n    }\n  ],\n  \"subtotal\": 139000,\n  \"charges\": [\n    {\n      \"name\": \"DISC\",\n      \"amount\": -36900\n    }\n  ],\n  \"total\": 122100\n}\n```",
+  "parsed": {
+    "merchant_name": "BEE COSMETICS",
+    "items": [
+      {
+        "name": "WRH UV SHIELD ACNE CALM SPF50 (BSR) 40ML",
+        "quantity": 1.0,
+        "unit_price": 59000.0,
+        "total_price": 59000.0
+      },
+      {
+        "name": "DERMA ANGEL ACNE PATCH SALICYLIC NIGHT ISI 12 q3",
+        "quantity": 1.0,
+        "unit_price": 41000.0,
+        "total_price": 41000.0
+      },
+      {
+        "name": "DERMA ANGEL ACNE PATCH SALICYLIC DAY ISI 12 q3",
+        "quantity": 1.0,
+        "unit_price": 39000.0,
+        "total_price": 39000.0
+      }
+    ],
+    "subtotal": 139000.0,
+    "charges": [
+      {
+        "name": "DISC",
+        "amount": -36900.0
+      }
+    ],
+    "total": 122100.0
+  },
+  "run_summary": {
+    "total_runs": 3,
+    "successful_runs": 3,
+    "failed_runs": 0,
+    "success_rate": 1.0
+  },
+  "metrics": {
+    "parsed": true,
+    "n_gt_items": 3,
+    "n_pred_items": 3,
+    "item_precision": 1.0,
+    "item_recall": 1.0,
+    "item_f1": 1.0,
+    "name_cer": 0.0,
+    "qty_acc": 1.0,
+    "unit_price_acc": 1.0,
+    "total_price_acc": 1.0,
+    "item_exact_rate": 1.0,
+    "subtotal_ok": false,
+    "charges_recall": 0.0,
+    "total_ok": false,
+    "consistent": false
+  }
+}
